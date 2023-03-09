@@ -20,6 +20,7 @@ module.exports = {
     extend: {
       colors: {
         customYellow: '#f4d661',
+        descBg: '#434343',
       },
     },
 
