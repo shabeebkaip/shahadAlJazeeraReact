@@ -4,28 +4,36 @@ import latte3 from "./assets/SAJ Hot Drink 003.jpg";
 import latte4 from "./assets/SAJ Hot Drink 004.jpg";
 import latte5 from "./assets/SAJ Hot Drink 005.jpg";
 import latte6 from "./assets/SAJ Hot Drink 006.jpg";
-// /import latte7 from "./assets / SAJ Hot Drink 007.jpg";
+import latte7 from "./assets/SAJ Hot Drink 007.jpg";
+import doubleEspresso from "./assets/SAJ Double Espresso-min.jpg";
+import hotAmericano from './assets/SAJ Hot Americano-min.jpg';
+import cortado from "./assets/Cortado.png.jpg";
 import v60Hot from "./assets/v60Hot.jpg";
+
 import icedV60 from "./assets/IcedV60.jpg";
 import icedLatte from './assets/iceLatte.jpg';
 import icedPistachioLatte from './assets/SAJ Iced Pistacio Latte-min.jpg';
 import americano from './assets/americano.jpg';
-import spanishLatte from './assets/spanishLatte.jpg';
+import icedSpanishLatte from './assets/SAJ Iced Spanish Latte-min.jpg';
 import icedCaramella from './assets/icedCaramella.jpg';
 import icedMocha from './assets/icedMocha.jpg';
+
 import strawberryMojito from './assets/strawberryMojito.jpg';
 import blueCuracaoMojito from './assets/blueCuracaoMojito.jpg';
 import passionFruitMojito from './assets/passionFruitMojito.jpg';
+
 import pistachioFrappe from './assets/Pistachio Frappe-min.jpg';
 import coffeeFrappe from './assets/frappe.jpg';
 import caramelFrappe from './assets/caramelFrappe.jpg';
 import chocoloateFrappe from './assets/chocolateFrappe.jpg';
+import mochaFrappe from './assets/SAJ Mocha Frappe-min.jpg';
+import strawberryFrappe from './assets/Frappe 005-min.jpg';
 
 export const data = [
   {
     id: 1,
-    name: "Hot Latte",
-    price: "AED 25.00",
+    name: "Cafe Latte",
+    price: "AED 16.00",
     img: latte1,
     category: 'Hot Drinks',
     description: 'Smooth and creamy steamed milk with single origin short of espresso',
@@ -34,7 +42,7 @@ export const data = [
   {
     id: 2,
     name: "Cappuccino",
-    price: "AED 25.00",
+    price: "AED 16.00",
     img: latte2,
     category: 'Hot Drinks',
     description: 'Combination of frothed milk blended with single origin espresso shot',
@@ -42,8 +50,8 @@ export const data = [
   },
   {
     id: 3,
-    name: "Flat White Latte",
-    price: "AED 25.00",
+    name: "Flat White",
+    price: "AED 17.00",
     img: latte3,
     category: 'Hot Drinks',
     description: 'Double shot of coffee  extraction with smooth and creamy textured milk',
@@ -52,17 +60,35 @@ export const data = [
   {
     id: 4,
     name: "Hot Pistachio Latte",
-    price: "AED 25.00",
+    price: "AED 20.00",
     img: latte4,
     category: 'Hot Drinks',
     description: 'Sweet latte with combination of pistachio sauce, steamed fresh milk and espresso',
     query: 'hotDrinks'
   },
   {
+    id: 22,
+    name: "Americano",
+    price: "AED 14.00",
+    img: hotAmericano,
+    category: 'Hot Drinks',
+    description: 'Single origin Brazilian espresso coffee lengthened with water',
+    query: 'hotDrinks'
+  },
+  {
     id: 18,
-    name: "Hot Caramella Latte",
-    price: "AED 25.00",
-    img: latte5,
+    name: "Caramella Latte",
+    price: "AED 20.00",
+    img: latte7,
+    category: 'Hot Drinks',
+    description: 'Sweet latte with combination of  caramel based  sauce, steamed fresh milk and espresso',
+    query: 'hotDrinks'
+  },
+  {
+    id: 23,
+    name: "Chocolate Latte",
+    price: "AED 20.00",
+    img: latte6,
     category: 'Hot Drinks',
     description: 'Sweet latte with combination of  caramel based  sauce, steamed fresh milk and espresso',
     query: 'hotDrinks'
@@ -70,10 +96,19 @@ export const data = [
   {
     id: 19,
     name: "Spanish Latte",
-    price: "AED 25.00",
-    img: latte6,
+    price: "AED 20.00",
+    img: latte5,
     category: 'Hot Drinks',
     description: 'Sweet latte with combination of  special spanish sauce, steamed fresh milk and espresso',
+    query: 'hotDrinks'
+  },
+  {
+    id: 20,
+    name: "Cortado",
+    price: "AED 17.00",
+    img: cortado,
+    category: 'Hot Drinks',
+    description: 'Double shot of single origin coffee extraction with creamy and textured milk. Served in 4oz cup',
     query: 'hotDrinks'
   },
   {
@@ -87,9 +122,19 @@ export const data = [
 
   },
   {
+    id: '24',
+    name: 'Double Espresso',
+    price: 'AED 12.00',
+    img: doubleEspresso,
+    category: 'Hot Drinks',
+    description: 'Double shot of single origin Brazilian espresso coffee',
+    query: 'hotDrinks'
+  },
+
+  {
     id: 5,
     name: 'Iced Latte',
-    price: 'AED 23.00',
+    price: 'AED 16.00',
     img: icedLatte,
     category: 'Iced Drinks',
     description: 'Fresh milk with shot of espress over ice',
@@ -106,7 +151,7 @@ export const data = [
   },
   {
     id: 7,
-    name: 'Iced Chocolate Mocha',
+    name: 'Iced Mocha',
     price: 'AED 24.00',
     img: icedMocha,
     category: 'Iced Drinks',
@@ -127,7 +172,7 @@ export const data = [
     id: 9,
     name: 'Iced Spanish Latte',
     price: 'AED 23.00',
-    img: spanishLatte,
+    img: icedSpanishLatte,
     category: 'Iced Drinks',
     description: 'Sweet latte with combination of spanish sauce, fresh milk and espresso over ice',
     query: 'icedDrinks'
@@ -214,7 +259,25 @@ export const data = [
     category: 'Frappes',
     description: 'Iced blended drink with flavour of chocolate',
     query: 'frappes'
-  }
+  },
+  {
+    id: 25,
+    name: 'Mocha Frappe',
+    price: 'AED 26.00',
+    img: mochaFrappe,
+    category: 'Frappes',
+    description: 'Iced blended drink with flavour of mocha',
+    query: 'frappes'
+  },
+  {
+    id: 26,
+    name: 'Strawberry Frappe',
+    price: 'AED 26.00',
+    img: strawberryFrappe,
+    category: 'Frappes',
+    description: 'Iced blended drink with flavour of strawberry',
+    query: 'frappes'
+  },
 ];
 export const categories = [
   { label: 'Hot Drinks', id: 'hotDrinks' },

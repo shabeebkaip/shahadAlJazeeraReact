@@ -25,7 +25,7 @@ const ProductDetail = () => {
             <LazyLoadImage
               src={product.img}
               alt={product.name}
-              className="object-cover rounded shadow-2xl aspect-[12/13] "
+              className="object-cover rounded shadow-2xl "
             />
           </div>
           <div className='flex flex-col flex-wrap items-center gap-2 p-4 bg-descBg '>

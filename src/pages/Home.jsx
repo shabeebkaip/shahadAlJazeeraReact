@@ -28,7 +28,7 @@ const Home = () => {
   return (
     <div className="">
       <div className="flex flex-col items-center justify-center py-4 " align="center">
-        <img src={logo} alt="jazeera" width={200} onClick={() => navigate('/')} />
+        <img src={logo} alt="jazeera" width={200} onClick={() => navigate('/')} className="drop-shadow-2xl" />
         <div className="grid grid-cols-1">
           <div className="flex flex-wrap items-center gap-2 mb-10" align="center">
             {categories.map((item, index) => (
@@ -48,7 +48,7 @@ const Home = () => {
         <div className="grid grid-cols-2 gap-4 p-2 md:grid-cols-4">
           {
             data.filter((item) => item.category === category.label).map((item, index) => (
-              <div className="flex flex-col items-center gap-3 duration-300 hover:scale-105"
+              <div className="flex flex-col items-center gap-3 duration-300 "
                 key={index}
                 onClick={() => { navigate(`/product/${item.id}`) }}
               >
@@ -56,9 +56,9 @@ const Home = () => {
                   src={item.img}
                   alt={item.name}
                   effect="blur"
-                  className="object-cover rounded shadow-2xl "
+                  className={`object-cover rounded shadow-2xl ${item.category === "Hot Drinks" ? 'aspect-square' : 'aspect-[9/16] '} `}
                 />
-                <div className="font-semibold text-customYellow " align="center">
+                <div className="font-semibold text-customYellow" align="center">
                   <h2>{item.name}</h2>
                   <p>{item.price}</p>
                 </div>
