@@ -8,7 +8,7 @@ import { Home, ProductDetail } from './pages';
 
 const App = () => {
   return (
-    <div className='h-full p-4 duration-300 bg-customGray scroll-smooth'>
+    <div className='h-full p-4 duration-300 md:h-screen bg-customGray scroll-smooth'>
       <Router >
         <Routes>
           <Route path="/" element={<Home />} />

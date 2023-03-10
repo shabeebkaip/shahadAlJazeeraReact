@@ -4,7 +4,7 @@ import latte3 from "./assets/SAJ Hot Drink 003.jpg";
 import latte4 from "./assets/SAJ Hot Drink 004.jpg";
 import latte5 from "./assets/SAJ Hot Drink 005.jpg";
 import latte6 from "./assets/SAJ Hot Drink 006.jpg";
-import latte7 from "./assets/SAJ Hot Drink 007.jpg";
+// /import latte7 from "./assets / SAJ Hot Drink 007.jpg";
 import v60Hot from "./assets/v60Hot.jpg";
 import icedV60 from "./assets/IcedV60.jpg";
 import icedLatte from './assets/iceLatte.jpg';
@@ -28,7 +28,8 @@ export const data = [
     price: "AED 25.00",
     img: latte1,
     category: 'Hot Drinks',
-    description: 'Smooth and creamy steamed milk with single origin short of espresso'
+    description: 'Smooth and creamy steamed milk with single origin short of espresso',
+    query: 'hotDrinks'
   },
   {
     id: 2,
@@ -36,7 +37,8 @@ export const data = [
     price: "AED 25.00",
     img: latte2,
     category: 'Hot Drinks',
-    description: 'Combination of frothed milk blended with single origin espresso shot'
+    description: 'Combination of frothed milk blended with single origin espresso shot',
+    query: 'hotDrinks'
   },
   {
     id: 3,
@@ -44,7 +46,8 @@ export const data = [
     price: "AED 25.00",
     img: latte3,
     category: 'Hot Drinks',
-    description: 'Double shot of coffee  extraction with smooth and creamy textured milk'
+    description: 'Double shot of coffee  extraction with smooth and creamy textured milk',
+    query: 'hotDrinks'
   },
   {
     id: 4,
@@ -52,7 +55,8 @@ export const data = [
     price: "AED 25.00",
     img: latte4,
     category: 'Hot Drinks',
-    description: 'Sweet latte with combination of pistachio sauce, steamed fresh milk and espresso'
+    description: 'Sweet latte with combination of pistachio sauce, steamed fresh milk and espresso',
+    query: 'hotDrinks'
   },
   {
     id: 18,
@@ -60,7 +64,8 @@ export const data = [
     price: "AED 25.00",
     img: latte5,
     category: 'Hot Drinks',
-    description: 'Sweet latte with combination of  caramel based  sauce, steamed fresh milk and espresso'
+    description: 'Sweet latte with combination of  caramel based  sauce, steamed fresh milk and espresso',
+    query: 'hotDrinks'
   },
   {
     id: 19,
@@ -68,7 +73,8 @@ export const data = [
     price: "AED 25.00",
     img: latte6,
     category: 'Hot Drinks',
-    description: 'Sweet latte with combination of  special spanish sauce, steamed fresh milk and espresso'
+    description: 'Sweet latte with combination of  special spanish sauce, steamed fresh milk and espresso',
+    query: 'hotDrinks'
   },
   {
     id: 21,
@@ -76,7 +82,8 @@ export const data = [
     price: "AED 25.00",
     img: v60Hot,
     category: 'Hot Drinks',
-    description: 'Manual brewing with v60 method that results in a rich, clean & tasteful cup'
+    description: 'Manual brewing with v60 method that results in a rich, clean & tasteful cup',
+    query: 'hotDrinks'
 
   },
   {
@@ -85,7 +92,8 @@ export const data = [
     price: 'AED 23.00',
     img: icedLatte,
     category: 'Iced Drinks',
-    description: 'Fresh milk with shot of espress over ice'
+    description: 'Fresh milk with shot of espress over ice',
+    query: 'icedDrinks'
   },
   {
     id: 6,
@@ -93,7 +101,8 @@ export const data = [
     price: 'AED 23.00',
     img: icedPistachioLatte,
     category: 'Iced Drinks',
-    description: 'Sweet latte with combination of  pistachio sauce, fresh milk and espresso over ice'
+    description: 'Sweet latte with combination of  pistachio sauce, fresh milk and espresso over ice',
+    query: 'icedDrinks'
   },
   {
     id: 7,
@@ -101,7 +110,8 @@ export const data = [
     price: 'AED 24.00',
     img: icedMocha,
     category: 'Iced Drinks',
-    description: 'Rich hot chocolate with coffee over ice'
+    description: 'Rich hot chocolate with coffee over ice',
+    query: 'icedDrinks'
 
   },
   {
@@ -110,7 +120,8 @@ export const data = [
     price: 'AED 14.00',
     img: americano,
     category: 'Iced Drinks',
-    description: 'Single origin Brazilian espresso coffee lengthened with water and ice'
+    description: 'Single origin Brazilian espresso coffee lengthened with water and ice',
+    query: 'icedDrinks'
   },
   {
     id: 9,
@@ -118,7 +129,8 @@ export const data = [
     price: 'AED 23.00',
     img: spanishLatte,
     category: 'Iced Drinks',
-    description: 'Sweet latte with combination of spanish sauce, fresh milk and espresso over ice'
+    description: 'Sweet latte with combination of spanish sauce, fresh milk and espresso over ice',
+    query: 'icedDrinks'
   },
   {
     id: 10,
@@ -126,7 +138,8 @@ export const data = [
     price: 'AED 23.00',
     img: icedCaramella,
     category: 'Iced Drinks',
-    description: 'Sweet latte with combination of caramel based sauce, fresh milk and espresso over ice'
+    description: 'Sweet latte with combination of caramel based sauce, fresh milk and espresso over ice',
+    query: 'icedDrinks'
   },
   {
     id: 22,
@@ -134,7 +147,8 @@ export const data = [
     price: 'AED 23.00',
     img: icedV60,
     category: 'Iced Drinks',
-    description: 'Manual brewing with v60 method that results in a rich, clean & tasteful cup  with ice'
+    description: 'Manual brewing with v60 method that results in a rich, clean & tasteful cup  with ice',
+    query: 'icedDrinks'
   },
   {
     id: 11,
@@ -142,7 +156,8 @@ export const data = [
     price: 'AED 25.00',
     img: strawberryMojito,
     category: 'Mojitos',
-    description: 'A refreshing aerated mojito with strawberry flavor'
+    description: 'A refreshing aerated mojito with strawberry flavor',
+    query: 'mojitos'
   },
   {
     id: 12,
@@ -150,7 +165,8 @@ export const data = [
     price: 'AED 25.00',
     img: blueCuracaoMojito,
     category: 'Mojitos',
-    description: 'A refreshing aerated mojito with blue curacao flavor'
+    description: 'A refreshing aerated mojito with blue curacao flavor',
+    query: 'mojitos'
   },
   {
     id: 13,
@@ -158,7 +174,8 @@ export const data = [
     price: 'AED 25.00',
     img: passionFruitMojito,
     category: 'Mojitos',
-    description: 'A refreshing aerated mojito with Passion fruit flavor'
+    description: 'A refreshing aerated mojito with Passion fruit flavor',
+    query: 'mojitos'
   },
   {
     id: 14,
@@ -166,7 +183,8 @@ export const data = [
     price: 'AED 27.00',
     img: pistachioFrappe,
     category: 'Frappes',
-    description: 'Iced blended drink with flavour of mocha'
+    description: 'Iced blended drink with flavour of mocha',
+    query: 'frappes'
 
   },
   {
@@ -175,7 +193,8 @@ export const data = [
     price: 'AED 26.00',
     img: coffeeFrappe,
     category: 'Frappes',
-    description: 'Iced blended drink with flavour of coffee'
+    description: 'Iced blended drink with flavour of coffee',
+    query: 'frappes'
 
   },
   {
@@ -184,7 +203,8 @@ export const data = [
     price: 'AED 26.00',
     img: caramelFrappe,
     category: 'Frappes',
-    description: 'Iced blended drink with flavour of caramel'
+    description: 'Iced blended drink with flavour of caramel',
+    query: 'frappes'
   },
   {
     id: 17,
@@ -192,7 +212,8 @@ export const data = [
     price: 'AED 26.00',
     img: chocoloateFrappe,
     category: 'Frappes',
-    description: 'Iced blended drink with flavour of chocolate'
+    description: 'Iced blended drink with flavour of chocolate',
+    query: 'frappes'
   }
 ];
 export const categories = [
