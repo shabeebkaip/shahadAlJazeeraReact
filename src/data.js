@@ -9,6 +9,7 @@ import doubleEspresso from "./assets/SAJ Double Espresso-min.jpg";
 import hotAmericano from './assets/SAJ Hot Americano-min.jpg';
 import cortado from "./assets/Cortado.png.jpg";
 import v60Hot from "./assets/v60Hot.jpg";
+import chocalatteMocha from "./assets/SAJ Hot Chocolate-min.jpg";
 
 import icedV60 from "./assets/IcedV60.jpg";
 import icedLatte from './assets/iceLatte.jpg';
@@ -90,9 +91,19 @@ export const data = [
     price: "AED 20.00",
     img: latte6,
     category: 'Hot Drinks',
-    description: 'Sweet latte with combination of  caramel based  sauce, steamed fresh milk and espresso',
+    description: 'Sweet latte with combination of  Chocolate based  sauce, steamed fresh milk and espresso',
     query: 'hotDrinks'
   },
+  {
+    id: 27,
+    name: "Choclolate Mocha",
+    price: "AED 21.00",
+    img: chocalatteMocha,
+    category: 'Hot Drinks',
+    description: 'Rich hot chocolate with coffee',
+    query: 'hotDrinks'
+  },
+
   {
     id: 19,
     name: "Spanish Latte",

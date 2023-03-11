@@ -35,10 +35,6 @@ const ProductDetail = () => {
           </div>
         </div>
       }
-      <span className="fixed bottom-0 left-0 right-0 p-4 ">
-        <button className='flex items-center px-4 py-1 text-white border border-customYellow rounded-2xl' onClick={() => navigate(`/?${product.query}`)}><IoIosArrowRoundBack className='text-2xl text-customYellow' /> Back</button>
-      </span>
-
     </div>
   )
 }
