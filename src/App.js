@@ -8,7 +8,7 @@ import { IoIosCall } from 'react-icons/io';
 const App = () => {
   console.log(window.location.href)
   return (
-    <div className='h-full p-4 duration-300 md:h-screen bg-customGray scroll-smooth'>
+    <div className='grid h-full grid-cols-1 p-4 duration-300  bg-customGray scroll-smooth lg:grid-cols-3 overflow-y '>
       <Router >
         <Routes>
           <Route path="/" element={<Home />} />

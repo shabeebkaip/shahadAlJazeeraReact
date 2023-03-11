@@ -46,7 +46,7 @@ const Home = () => {
       </div>
       <div className="mb-10" id="hotDrinks" >
         <h1 className="mb-10 text-2xl font-semibold text-center text-customYellow">{category.label}</h1>
-        <div className="grid grid-cols-2 gap-4 p-2 md:grid-cols-4">
+        <div className="grid grid-cols-2 gap-4 p-2 ">
           {
             data.filter((item) => item.category === category.label).map((item, index) => (
               <div className="flex flex-col items-center gap-3 duration-300 "

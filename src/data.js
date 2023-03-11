@@ -6,8 +6,8 @@ import latte5 from "./assets/SAJ Hot Drink 005.jpg";
 import latte6 from "./assets/SAJ Hot Drink 006.jpg";
 import latte7 from "./assets/SAJ Hot Drink 007.jpg";
 import doubleEspresso from "./assets/SAJ Double Espresso-min.jpg";
-import hotAmericano from './assets/SAJ Hot Americano -min.jpg';
-import cortado from "./assets/Cortado.png.jpg";
+import hotAmericano from './assets/SAJ Hot Americano -min (1).jpg';
+import cortado from "./assets/Cortado-min (1).jpg";
 import v60Hot from "./assets/v60Hot.jpg";
 import chocalatteMocha from "./assets/SAJ Hot Chocolate-min.jpg";
 
