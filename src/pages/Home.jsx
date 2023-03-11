@@ -58,7 +58,7 @@ const Home = () => {
                     src={item.img}
                     alt={item.name}
                     effect="blur"
-                    className={`object-cover rounded shadow-2xl ${item.category === "Hot Drinks" ? 'aspect-square' : 'aspect-[9/16] '} `}
+                    className={`object-cover rounded shadow-2xl ${item.category === "Frappes" ? 'aspect-[9/16]' : ''} `}
                   />
                 </LazyLoad>
                 <div className="font-semibold text-customYellow" align="center">
