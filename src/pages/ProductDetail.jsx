@@ -3,7 +3,6 @@ import logo from '../assets/logo.png'
 import { useParams, useNavigate } from 'react-router-dom'
 import { data } from '../data'
 import { LazyLoadImage } from 'react-lazy-load-image-component';
-import { IoIosArrowRoundBack } from 'react-icons/io'
 
 
 const ProductDetail = () => {
