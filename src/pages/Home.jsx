@@ -5,6 +5,7 @@ import 'swiper/swiper.css';
 import { LazyLoadImage } from 'react-lazy-load-image-component';
 import 'react-lazy-load-image-component/src/effects/blur.css';
 import { useNavigate, } from 'react-router-dom';
+import LazyLoad from 'react-lazyload';
 
 
 
@@ -52,12 +53,14 @@ const Home = () => {
                 key={index}
                 onClick={() => { navigate(`/product/${item.id}`) }}
               >
-                <LazyLoadImage
-                  src={item.img}
-                  alt={item.name}
-                  effect="blur"
-                  className={`object-cover rounded shadow-2xl ${item.category === "Hot Drinks" ? 'aspect-square' : 'aspect-[9/16] '} `}
-                />
+                <LazyLoad height={200} once>
+                  <LazyLoadImage
+                    src={item.img}
+                    alt={item.name}
+                    effect="blur"
+                    className={`object-cover rounded shadow-2xl ${item.category === "Hot Drinks" ? 'aspect-square' : 'aspect-[9/16] '} `}
+                  />
+                </LazyLoad>
                 <div className="font-semibold text-customYellow" align="center">
                   <h2>{item.name}</h2>
                   <p>{item.price}</p>

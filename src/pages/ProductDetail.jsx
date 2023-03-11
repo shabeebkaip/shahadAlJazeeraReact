@@ -3,6 +3,7 @@ import logo from '../assets/logo.png'
 import { useParams, useNavigate } from 'react-router-dom'
 import { data } from '../data'
 import { LazyLoadImage } from 'react-lazy-load-image-component';
+import { IoIosArrowRoundBack } from 'react-icons/io'
 
 
 const ProductDetail = () => {
@@ -34,6 +35,13 @@ const ProductDetail = () => {
           </div>
         </div>
       }
+
+      <span className="fixed bottom-0 left-0 right-0 p-4 ">
+        <a href='/'>
+          <button className='flex items-center px-4 py-1 text-white border border-customYellow rounded-2xl'><IoIosArrowRoundBack className='text-2xl text-customYellow' /> Back</button>
+        </a>
+      </span>
+
     </div>
   )
 }
