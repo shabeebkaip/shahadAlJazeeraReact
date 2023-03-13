@@ -21,9 +21,16 @@ const Home = () => {
   useEffect(() => {
     let query = window.location.search;
     if (query) {
+
       let category = categories.find(item => query.includes(item.id));
-      setCategory(category);
-      setTabIndex(categories.indexOf(category));
+      if (category) {
+        setCategory(category);
+        setTabIndex(categories.indexOf(category));
+      } else {
+        setCategory(categories[0]);
+        setTabIndex(0);
+      }
+
     }
   }, [])
   return (
@@ -44,32 +51,36 @@ const Home = () => {
           </div>
         </div>
       </div>
-      <div className="mb-10" id="hotDrinks" >
-        <h1 className="mb-10 text-2xl font-semibold text-center text-customYellow">{category.label}</h1>
-        <div className="grid grid-cols-2 gap-4 p-2 ">
-          {
-            data.filter((item) => item.category === category.label).map((item, index) => (
-              <div className="flex flex-col items-center gap-3 duration-300 "
-                key={index}
-                onClick={() => { navigate(`/product/${item.id}`) }}
-              >
-                <LazyLoad height={200} once>
-                  <LazyLoadImage
-                    src={item.img}
-                    alt={item.name}
-                    effect="blur"
-                    className={`object-cover rounded shadow-2xl ${item.category === "Frappes" ? 'aspect-[9/16]' : ''} `}
-                  />
-                </LazyLoad>
-                <div className="font-semibold text-customYellow" align="center">
-                  <h2>{item.name}</h2>
-                  <p>{item.price}</p>
-                </div>
-              </div>
-            ))
-          }
-        </div>
-      </div>
+      {
+        category && category.label ?
+          <div className="mb-10" id="hotDrinks" >
+            <h1 className="mb-10 text-2xl font-semibold text-center text-customYellow">{category.label}</h1>
+            <div className="grid grid-cols-2 gap-4 p-2 ">
+              {
+                data.filter((item) => item.category === category.label).map((item, index) => (
+                  <div className="flex flex-col items-center gap-3 duration-300 "
+                    key={index}
+                    onClick={() => { navigate(`/product/${item.id}`) }}
+                  >
+                    <LazyLoad height={200} once>
+                      <LazyLoadImage
+                        src={item.img}
+                        alt={item.name}
+                        effect="blur"
+                        className={`object-cover rounded shadow-2xl ${item.category === "Frappes" ? 'aspect-[9/16]' : ''} `}
+                      />
+                    </LazyLoad>
+                    <div className="font-semibold text-customYellow" align="center">
+                      <h2>{item.name}</h2>
+                      <p>{item.price}</p>
+                    </div>
+                  </div>
+                ))
+              }
+            </div>
+          </div> : null
+      }
+
     </div>
   )
 }
