@@ -13,6 +13,7 @@ const ProductDetail = () => {
   useEffect(() => {
     setProduct(data.find(item => item.id == id))
   }, [id])
+  console.log(product, 'product')
   return (
     <div className='h-full'>
       <div className="flex flex-col items-center justify-center " onClick={() => { navigate('/') }}>
@@ -35,13 +36,14 @@ const ProductDetail = () => {
           </div>
         </div>
       }
-
-      <span className="fixed bottom-0 left-0 right-0 p-4 ">
-        <a href='/'>
-          <button className='flex items-center px-4 py-1 text-white border border-customYellow rounded-2xl'><IoIosArrowRoundBack className='text-2xl text-customYellow' /> Back</button>
-        </a>
-      </span>
-
+      {
+        product &&
+        <span className="fixed bottom-0 left-0 right-0 p-4 ">
+          <a href={`/?${product.query}`}>
+            <button className='flex items-center px-4 py-1 text-white border border-customYellow rounded-2xl'><IoIosArrowRoundBack className='text-2xl text-customYellow' /> Back</button>
+          </a>
+        </span>
+      }
     </div>
   )
 }

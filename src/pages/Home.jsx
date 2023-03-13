@@ -58,7 +58,7 @@ const Home = () => {
             <div className="grid grid-cols-2 gap-4 p-2 ">
               {
                 data.filter((item) => item.category === category.label).map((item, index) => (
-                  <div className="flex flex-col items-center gap-3 duration-300 "
+                  <div className="flex flex-col items-center gap-3 duration-300 cursor-pointer"
                     key={index}
                     onClick={() => { navigate(`/product/${item.id}`) }}
                   >
