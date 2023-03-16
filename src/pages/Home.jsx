@@ -35,13 +35,13 @@ const Home = () => {
   }, [])
   return (
     <div className="">
-      <div className="flex flex-col items-center justify-center py-2 " align="center">
+      <div className="flex flex-col items-center justify-center " align="center">
         <img src={logo} alt="jazeera" width={200} onClick={() => navigate('/')} className="drop-shadow-2xl" />
         <div className="grid grid-cols-1">
-          <div className="flex flex-wrap items-center gap-2 mb-1" align="center">
+          <div className="flex flex-wrap items-center gap-2 my-2" align="center">
             {categories.map((item, index) => (
               <div
-                className={`cursor-pointer px-2 py-1 flex items-center border text-customYellow border-customYellow rounded-2xl ${tabIndex === index ? "bg-customYellow text-white" : ''} `}
+                className={`cursor-pointer text-sm  px-2 py-1 flex items-center uppercase border text-customYellow border-customYellow rounded-2xl ${tabIndex === index ? "bg-customYellow text-white" : ''} `}
                 align="center"
                 key={index}
                 onClick={() => handleTabChange(item, index)}>
@@ -54,7 +54,7 @@ const Home = () => {
       {
         category && category.label ?
           <div className="mb-10" id="hotDrinks" >
-            <h1 className="mb-4 text-xl font-semibold text-center uppercase  text-customYellow">{category.label}</h1>
+            <h1 className="mb-4 text-xl font-semibold text-center uppercase text-customYellow">{category.label}</h1>
             <div className="grid grid-cols-2 gap-4 p-2 ">
               {
                 data.filter((item) => item.category === category.label).map((item, index) => (

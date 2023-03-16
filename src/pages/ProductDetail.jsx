@@ -30,9 +30,9 @@ const ProductDetail = () => {
             />
           </div>
           <div className='flex flex-col flex-wrap items-center gap-2 p-4 bg-descBg '>
-            <h1 className='text-2xl font-semibold text-center text-customYellow '>{product.name}</h1>
-            <p className='text-center text-customYellow'>{product.price}</p>
-            <p className='font-semibold text-center text-white' >{product.description}</p>
+            <h1 className='text-xl font-semibold text-center uppercase text-customYellow'>{product.name}</h1>
+            <p className='font-semibold text-center text-customYellow'>{product.price}</p>
+            <p className='text-center text-white ' >{product.description}</p>
           </div>
         </div>
       }
