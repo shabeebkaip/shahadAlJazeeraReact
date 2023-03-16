@@ -54,7 +54,7 @@ const Home = () => {
       {
         category && category.label ?
           <div className="mb-10" id="hotDrinks" >
-            <h1 className="mb-2 text-2xl font-semibold text-center text-customYellow">{category.label}</h1>
+            <h1 className="mb-2 text-2xl font-semibold text-center uppercase text-customYellow">{category.label}</h1>
             <div className="grid grid-cols-2 gap-4 p-2 ">
               {
                 data.filter((item) => item.category === category.label).map((item, index) => (
@@ -67,10 +67,10 @@ const Home = () => {
                         src={item.img}
                         alt={item.name}
                         effect="blur"
-                        className={`object-cover rounded shadow-2xl ${item.category === "Frappes" ? 'aspect-[9/16]' : ''} `}
+                        className={`object-cover rounded shadow-3xl drop-shadow-2xl ${item.category === "Frappes" ? 'aspect-[9/16]' : ''} `}
                       />
                     </LazyLoad>
-                    <div className="font-semibold text-customYellow" align="center">
+                    <div className="font-bold uppercase text-md text-customYellow" align="center">
                       <h2>{item.name}</h2>
                       <p>{item.price}</p>
                     </div>
@@ -80,7 +80,6 @@ const Home = () => {
             </div>
           </div> : null
       }
-
     </div>
   )
 }
