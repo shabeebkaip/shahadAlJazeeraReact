@@ -148,7 +148,7 @@ export const data = [
     price: 'AED 16.00',
     img: icedLatte,
     category: 'Iced Drinks',
-    description: 'Fresh milk with shot of espress over ice',
+    description: 'Fresh milk with shot of espresso over ice',
     query: 'icedDrinks'
   },
   {
