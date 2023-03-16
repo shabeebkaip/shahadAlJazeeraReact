@@ -208,7 +208,7 @@ export const data = [
   },
   {
     id: 11,
-    name: 'Strwaberry Mojito',
+    name: 'Strawberry Mojito',
     price: 'AED 25.00',
     img: strawberryMojito,
     category: 'Mojitos',
