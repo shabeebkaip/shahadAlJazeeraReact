@@ -54,7 +54,7 @@ const Home = () => {
       {
         category && category.label ?
           <div className="mb-10" id="hotDrinks" >
-            <h1 className="mb-2 text-2xl font-semibold text-center uppercase text-customYellow">{category.label}</h1>
+            <h1 className="mb-4 text-xl font-semibold text-center uppercase  text-customYellow">{category.label}</h1>
             <div className="grid grid-cols-2 gap-4 p-2 ">
               {
                 data.filter((item) => item.category === category.label).map((item, index) => (
