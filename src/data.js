@@ -96,7 +96,7 @@ export const data = [
   },
   {
     id: 27,
-    name: "Choclolate Mocha",
+    name: "Chocolate Mocha",
     price: "AED 21.00",
     img: chocalatteMocha,
     category: 'Hot Drinks',
