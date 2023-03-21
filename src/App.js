@@ -1,17 +1,22 @@
 import React from 'react';
 import './App.css';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import { Home, ProductDetail } from './pages';
+import { Home, ProductDetail, Categories, Category } from './pages';
 import { AiFillInstagram, AiFillFacebook, AiOutlineWhatsApp } from 'react-icons/ai';
 import { FaSnapchatGhost } from 'react-icons/fa';
 import { IoIosCall } from 'react-icons/io';
+import logo from './assets/logo.png'
 const App = () => {
   console.log(window.location.href)
   return (
-    <div className='grid h-full grid-cols-1 p-4 duration-300  bg-customGray scroll-smooth lg:grid-cols-3 overflow-y '>
-      <Router >
+    <Router >
+      <div className='grid w-full h-full grid-cols-1 p-4 duration-300 bg-customGray scroll-smooth overflow-y lg:w-1/3 '>
+        <div className="flex flex-col items-center justify-center " align="center">
+          <img src={logo} alt="jazeera" width={200} className="drop-shadow-2xl" />
+        </div>
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path="/" element={<Categories />} />
+          <Route path="/category/:id" element={<Category />} />
           <Route path="product/:id" element={<ProductDetail />} />
           <Route path="*" element={<h1>404</h1>} />
         </Routes>
@@ -31,8 +36,8 @@ const App = () => {
             </div>
           </div>
         </footer>
-      </Router>
-    </div>
+      </div>
+    </Router>
   )
 }
 

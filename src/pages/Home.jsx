@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import { categories, data } from '../data';
+import { categories, data, menu } from '../data';
 import logo from '../assets/logo.png'
 import 'swiper/swiper.css';
 import { LazyLoadImage } from 'react-lazy-load-image-component';
@@ -11,12 +11,18 @@ import LazyLoad from 'react-lazyload';
 
 const Home = () => {
   const [tabIndex, setTabIndex] = useState(0);
-  const [category, setCategory] = useState({ label: 'Hot Drinks', id: 'hotDrinks' })
+  const [subTabIndex, setSubTabIndex] = useState(0);
+  const [category, setCategory] = useState(menu.categories[0])
+  let data = category.subCategories ? category.subCategories[subTabIndex].items : category.items;
+
   const navigate = useNavigate()
   const handleTabChange = (item, index) => {
     setTabIndex(index);
     setCategory(item);
     navigate(`/?${item.id}`)
+  }
+  const handleSubTabIndex = (item, index) => {
+    setSubTabIndex(index);
   }
   useEffect(() => {
     let query = window.location.search;
@@ -27,7 +33,7 @@ const Home = () => {
         setCategory(category);
         setTabIndex(categories.indexOf(category));
       } else {
-        setCategory(categories[0]);
+        setCategory(menu.categories[0]);
         setTabIndex(0);
       }
 
@@ -36,28 +42,38 @@ const Home = () => {
   return (
     <div className="">
       <div className="flex flex-col items-center justify-center " align="center">
-        <img src={logo} alt="jazeera" width={200} onClick={() => navigate('/')} className="drop-shadow-2xl" />
         <div className="grid grid-cols-1">
           <div className="flex flex-wrap items-center gap-2 my-2" align="center">
-            {categories.map((item, index) => (
+            {menu.categories.map((item, index) => (
               <div
                 className={`cursor-pointer text-sm  px-2 py-1 flex items-center uppercase border text-customYellow border-customYellow rounded-2xl ${tabIndex === index ? "bg-customYellow text-white" : ''} `}
                 align="center"
                 key={index}
                 onClick={() => handleTabChange(item, index)}>
-                {item.label}
+                {item.name}
               </div>
             ))}
           </div>
         </div>
       </div>
       {
-        category && category.label ?
+        category && category.name ?
           <div className="mb-10" id="hotDrinks" >
-            <h1 className="mb-4 text-xl font-semibold text-center uppercase text-customYellow">{category.label}</h1>
+            <h1 className="mb-4 text-xl font-semibold text-center uppercase text-customYellow">{category.name}</h1>
+            <div className="flex flex-wrap items-center gap-2 my-2" align="center">
+              {category.subCategories?.map((item, index) => (
+                <div
+                  className={`cursor-pointer text-sm  px-2 py-1 flex items-center uppercase border text-customYellow border-customYellow rounded-2xl ${subTabIndex === index ? "bg-customYellow text-white" : ''} `}
+                  align="center"
+                  key={index}
+                  onClick={() => handleSubTabIndex(item, index)}>
+                  {item.name}
+                </div>
+              ))}
+            </div>
             <div className="grid grid-cols-2 gap-4 p-2 ">
               {
-                data.filter((item) => item.category === category.label).map((item, index) => (
+                data.map((item, index) => (
                   <div className="flex flex-col items-center gap-3 duration-300 cursor-pointer"
                     key={index}
                     onClick={() => { navigate(`/product/${item.id}`) }}
