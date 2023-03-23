@@ -11,13 +11,14 @@ import 'swiper/css/navigation';
 const Category = () => {
   const [tabIndex, setTabIndex] = useState(0);
   const [category, setCategory] = useState();
-  const { id } = useParams();
+  const params = useParams();
+
   console.log(category)
   const handleTabChange = (index) => {
     setTabIndex(index);
   }
   useEffect(() => {
-    let category = menu.categories.find(item => item.id === parseInt(id));
+    let category = menu.categories.find(item => item.url === params.category);
     if (category) {
       setCategory(category);
       setTabIndex(menu.categories.indexOf(category));
@@ -25,8 +26,8 @@ const Category = () => {
       setCategory(menu.categories[0]);
       setTabIndex(0);
     }
-  }, [id])
-  console.log('id', id)
+  }, [params.category])
+  console.log('id', params)
   return (
     <div className='flex flex-col items-center justify-center'>
       {
@@ -46,7 +47,7 @@ const Category = () => {
             </div>
             <div className="grid grid-cols-2 gap-4 p-2 ">
               {
-                category.subCategories ?  category.subCategories[tabIndex].items.map((item, index) => (
+                category.subCategories && category.subCategories.length ? category.subCategories[tabIndex].items.map((item, index) => (
                   <Food key={index} item={item} />
                 )) : category.items.map((item, index) => (
                   <Food key={index} item={item} />

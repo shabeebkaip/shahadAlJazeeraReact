@@ -1,3 +1,5 @@
+// Beverages
+// Hot Drinks
 import latte1 from "./assets/SAJ Hot Drink 001.jpg";
 import latte2 from "./assets/SAJ Hot Drink 002.jpg";
 import latte3 from "./assets/SAJ Hot Drink 003.jpg";
@@ -11,6 +13,7 @@ import cortado from "./assets/Cortado-min (1).jpg";
 import v60Hot from "./assets/v60Hot.jpg";
 import chocalatteMocha from "./assets/SAJ Hot Chocolate-min.jpg";
 
+// Iced Drinks
 import icedV60 from "./assets/IcedV60.jpg";
 import icedLatte from './assets/iceLatte.JPG';
 import icedPistachioLatte from './assets/SAJ Iced Pistacio Latte-min.jpg';
@@ -19,16 +22,55 @@ import icedSpanishLatte from './assets/SAJ Iced Spanish Latte-min.jpg';
 import icedCaramella from './assets/icedCaramella.JPG';
 import icedMocha from './assets/icedMocha.JPG';
 
+// Mojitos
 import strawberryMojito from './assets/strawberryMojito.jpg';
 import blueCuracaoMojito from './assets/blueCuracaoMojito.jpg';
 import passionFruitMojito from './assets/passionFruitMojito.jpg';
 
+// Frappes
 import pistachioFrappe from './assets/Pistachio Frappe-min.jpg';
 import coffeeFrappe from './assets/frappe.jpg';
 import caramelFrappe from './assets/caramelFrappe.jpg';
 import chocoloateFrappe from './assets/chocolateFrappe.jpg';
 import mochaFrappe from './assets/SAJ Mocha Frappe-min.jpg';
 import strawberryFrappe from './assets/Frappe 005-min.jpg';
+
+// Special Cakes
+import carrotCake from './assets/specialcakes/CARROT CAKE 130AED.png'
+import carrotMonoCake from './assets/specialcakes/CARROT MONO CAKE 20 AED.jpg';
+import chocolateCheeseCake from './assets/specialcakes/CHOCLATE CHEESE CAKE 130.png';
+import fruitTartCake from './assets/specialcakes/FRUIT TART CAKE 150 AED.png';
+import lemonBlueberryCake from './assets/specialcakes/LEMON BLUEBERRY CAKE 130 AED.png';
+import lemonBlueberryMonoCake from './assets/specialcakes/LEMON BLUEBERRY MONO CAKE 20 AED.png';
+import monoCakeChocolate from './assets/specialcakes/MONO CAKE CHOCOLATE 20 AED.png';
+import pistachioMonoCake from './assets/specialcakes/PISTACHIO MONO CAKE 20 AED.jpg';
+import pistachioRaspberryCake from './assets/specialcakes/PISTACHIO RASPEBERRY CAKE 130 AED.png';
+import pumpkinCake from './assets/specialcakes/PUMPKIN CAKE 130.png';
+import redVelvetCheeseCake from './assets/specialcakes/RED VELVET CHEESE CAKE 80 AED.jpg';
+import tartMiniCake from './assets/specialcakes/TART MINI CAKE 20 AED.png';
+import tiramisuThurtha from './assets/specialcakes/TIRAMISU THURTHA 180 AED.png';
+
+// Special Desserts
+import assortedDessertGlass from './assets/special desserts/ASSORTED DESSERT GLASS  10 AED.png';
+import bruleeMangoBowl from './assets/special desserts/BRULEE MANGO BOWL 105 AED.png';
+import bruleePistachioBowl from './assets/special desserts/BRULEE PISTACHIO BOWL 120 AED.png';
+import bruleeSaffroBowl from './assets/special desserts/BRULEE SAFFRO BOWL 105 AED.png';
+import bruleeVannillaBowl from './assets/special desserts/BRULEE VANNILA BOWL 105 AED.png';
+import princessPistachioBowl from './assets/special desserts/PRINCESS PISTACHIO BOWL 120 AED.jpg';
+
+// Cakes
+import caramelThurthaBig from './assets/cakes/CARAMEL THURTHA BIG 150 AED-min.png';
+import caramelThurthaSmall from './assets/cakes/CARAMEL THURTHA SMALL 85 AED-min.png';
+import chocolateCake from './assets/cakes/CHOCOLATE CAKE 150 AED-min.png';
+import frenchHoneyCakeRegular from './assets/cakes/FRENCH HONEY CAKE REGULAR 100 AED-min.png';
+import fruitCakeLarge from './assets/cakes/FRUIT CAKE  LARGE 150 AED-min.png';
+import fruitCakeSmall from './assets/cakes/FRUIT CAKE SMALL 50 AED-min.png';
+import koreanCake from './assets/cakes/KOREAN CAKE 45 DH-min.png';
+import koreanCake1 from './assets/cakes/KOREAN CAKE 45DH-min.png';
+import koreanCake2 from './assets/cakes/KOREN CAKE 45 AED-min.png';
+
+
+
 
 const randomIdGenerator = () => {
   return Math.floor(Math.random() * 100000000 + 1);
@@ -307,13 +349,14 @@ export const menu = {
     {
       id: 1,
       name: "Beverages",
+      url: "beverages",
       subCategories: [
         {
-          id: randomIdGenerator(),
+          id: 1,
           name: "Hot Drinks",
           items: [
             {
-              id: randomIdGenerator(),
+              id: 1,
               name: "Cafe Latte",
               price: "AED 16.00",
               img: latte1,
@@ -323,7 +366,7 @@ export const menu = {
               query: 'hotDrinks'
             },
             {
-              id: randomIdGenerator(),
+              id: 2,
               name: "Cappuccino",
               price: "AED 16.00",
               img: latte2,
@@ -332,7 +375,7 @@ export const menu = {
               query: 'hotDrinks'
             },
             {
-              id: randomIdGenerator(),
+              id: 3,
               name: "Flat White",
               price: "AED 17.00",
               img: latte3,
@@ -341,7 +384,7 @@ export const menu = {
               query: 'hotDrinks'
             },
             {
-              id: randomIdGenerator(),
+              id: 4,
               name: "Hot Pistachio Latte",
               price: "AED 20.00",
               img: latte4,
@@ -350,7 +393,7 @@ export const menu = {
               query: 'hotDrinks'
             },
             {
-              id: randomIdGenerator(),
+              id: 5,
               name: "Americano",
               price: "AED 14.00",
               img: hotAmericano,
@@ -359,7 +402,7 @@ export const menu = {
               query: 'hotDrinks'
             },
             {
-              id: randomIdGenerator(),
+              id: 6,
               name: "Caramella Latte",
               price: "AED 20.00",
               img: latte7,
@@ -368,7 +411,7 @@ export const menu = {
               query: 'hotDrinks'
             },
             {
-              id: randomIdGenerator(),
+              id: 7,
               name: "Chocolate Latte",
               price: "AED 20.00",
               img: latte6,
@@ -377,7 +420,7 @@ export const menu = {
               query: 'hotDrinks'
             },
             {
-              id: randomIdGenerator(),
+              id: 8,
               name: "Chocolate Mocha",
               price: "AED 21.00",
               img: chocalatteMocha,
@@ -387,7 +430,7 @@ export const menu = {
             },
 
             {
-              id: randomIdGenerator(),
+              id: 9,
               name: "Spanish Latte",
               price: "AED 20.00",
               img: latte5,
@@ -396,7 +439,7 @@ export const menu = {
               query: 'hotDrinks'
             },
             {
-              id: randomIdGenerator(),
+              id: 10,
               name: "Cortado",
               price: "AED 17.00",
               img: cortado,
@@ -405,7 +448,7 @@ export const menu = {
               query: 'hotDrinks'
             },
             {
-              id: randomIdGenerator(),
+              id: 11,
               name: "V60",
               price: "AED 25.00",
               img: v60Hot,
@@ -415,7 +458,7 @@ export const menu = {
 
             },
             {
-              id: '24',
+              id: 12,
               name: 'Double Espresso',
               price: 'AED 12.00',
               img: doubleEspresso,
@@ -426,11 +469,11 @@ export const menu = {
           ]
         },
         {
-          id: randomIdGenerator(),
+          id: 2,
           name: "Iced Drinks",
           items: [
             {
-              id: randomIdGenerator(),
+              id: 13,
               name: 'Iced Latte',
               price: 'AED 16.00',
               img: icedLatte,
@@ -439,7 +482,7 @@ export const menu = {
               query: 'icedDrinks'
             },
             {
-              id: randomIdGenerator(),
+              id: 14,
               name: 'Iced Pistachio Latte',
               price: 'AED 23.00',
               img: icedPistachioLatte,
@@ -448,7 +491,7 @@ export const menu = {
               query: 'icedDrinks'
             },
             {
-              id: randomIdGenerator(),
+              id: 15,
               name: 'Iced Mocha',
               price: 'AED 24.00',
               img: icedMocha,
@@ -458,7 +501,7 @@ export const menu = {
 
             },
             {
-              id: randomIdGenerator(),
+              id: 16,
               name: 'Iced Americano',
               price: 'AED 14.00',
               img: americano,
@@ -467,7 +510,7 @@ export const menu = {
               query: 'icedDrinks'
             },
             {
-              id: randomIdGenerator(),
+              id: 17,
               name: 'Iced Spanish Latte',
               price: 'AED 23.00',
               img: icedSpanishLatte,
@@ -476,7 +519,7 @@ export const menu = {
               query: 'icedDrinks'
             },
             {
-              id: randomIdGenerator(),
+              id: 18,
               name: 'Iced Caramella',
               price: 'AED 23.00',
               img: icedCaramella,
@@ -485,7 +528,7 @@ export const menu = {
               query: 'icedDrinks'
             },
             {
-              id: randomIdGenerator(),
+              id: 19,
               name: 'Iced V60',
               price: 'AED 23.00',
               img: icedV60,
@@ -496,11 +539,11 @@ export const menu = {
           ]
         },
         {
-          id: randomIdGenerator(),
+          id: 3,
           name: "Mojitos",
           items: [
             {
-              id: randomIdGenerator(),
+              id: 20,
               name: 'Strawberry Mojito',
               price: 'AED 25.00',
               img: strawberryMojito,
@@ -509,7 +552,7 @@ export const menu = {
               query: 'mojitos'
             },
             {
-              id: randomIdGenerator(),
+              id: 21,
               name: 'Blue Curacao Mojito',
               price: 'AED 25.00',
               img: blueCuracaoMojito,
@@ -518,7 +561,7 @@ export const menu = {
               query: 'mojitos'
             },
             {
-              id: randomIdGenerator(),
+              id: 22,
               name: 'Passion Fruit Mojito',
               price: 'AED 25.00',
               img: passionFruitMojito,
@@ -532,7 +575,7 @@ export const menu = {
           name: 'Frappes',
           items: [
             {
-              id: randomIdGenerator(),
+              id: 23,
               name: 'Pistachio Frappe',
               price: 'AED 27.00',
               img: pistachioFrappe,
@@ -542,7 +585,7 @@ export const menu = {
 
             },
             {
-              id: randomIdGenerator(),
+              id: 24,
               name: 'Coffee Frappe',
               price: 'AED 26.00',
               img: coffeeFrappe,
@@ -552,7 +595,7 @@ export const menu = {
 
             },
             {
-              id: randomIdGenerator(),
+              id: 25,
               name: 'Caramel Frappe',
               price: 'AED 26.00',
               img: caramelFrappe,
@@ -561,7 +604,7 @@ export const menu = {
               query: 'frappes'
             },
             {
-              id: randomIdGenerator(),
+              id: 26,
               name: 'Chocolate Frappe',
               price: 'AED 26.00',
               img: chocoloateFrappe,
@@ -570,7 +613,7 @@ export const menu = {
               query: 'frappes'
             },
             {
-              id: randomIdGenerator(),
+              id: 27,
               name: 'Mocha Frappe',
               price: 'AED 26.00',
               img: mochaFrappe,
@@ -579,7 +622,7 @@ export const menu = {
               query: 'frappes'
             },
             {
-              id: randomIdGenerator(),
+              id: 28,
               name: 'Strawberry Frappe',
               price: 'AED 26.00',
               img: strawberryFrappe,
@@ -594,25 +637,285 @@ export const menu = {
     {
       id: 2,
       name: 'Special Cakes',
+      url: 'special-cakes',
       items: [
+        {
+          id: 1,
+          name: 'Carrot Cake',
+          price: 'AED 130.00',
+          img: carrotCake,
+          category: 'Special Cakes',
+          description: 'A cake with carrot and cream cheese frosting',
+          query: 'specialCakes'
+        },
+        {
+          id: 2,
+          name: 'Carrot Mono Cake',
+          price: 'AED 20.00',
+          img: carrotMonoCake,
+          category: 'Special Cakes',
+          description: 'A cake with carrot and cream cheese frosting',
+          query: 'specialCakes'
+        },
+        {
+          id: 3,
+          name: 'Chocolate Cheese Cake',
+          price: 'AED 130.00',
+          img: chocolateCheeseCake,
+          category: 'Special Cakes',
+          description: 'A cake with chocolate and cream cheese frosting',
+          query: 'specialCakes'
+        },
+        {
+          id: 4,
+          name: 'Fruit Tart Cake',
+          price: 'AED 150.00',
+          img: fruitTartCake,
+          category: 'Special Cakes',
+          description: 'A cake with fruit and cream cheese frosting',
+          query: 'specialCakes'
+        },
+        {
+          id: 5,
+          name: 'Lemon Blueberry Cake',
+          price: 'AED 130.00',
+          img: lemonBlueberryCake,
+          category: 'Special Cakes',
+          description: 'A cake with lemon and blueberry frosting',
+          query: 'specialCakes'
+        },
+        {
+          id: 6,
+          name: 'Lemon Blueberry Mono Cake',
+          price: 'AED 20.00',
+          img: lemonBlueberryMonoCake,
+          category: 'Special Cakes',
+          description: 'A cake with lemon and blueberry frosting',
+          query: 'specialCakes'
+        },
+        {
+          id: 7,
+          name: 'Mono Chocolate Cake',
+          price: 'AED 20.00',
+          img: monoCakeChocolate,
+          category: 'Special Cakes',
+          description: 'A cake with chocolate and cream cheese frosting',
+          query: 'specialCakes'
+        },
+        {
+          id: 8,
+          name: 'Pistachio Mono Cake',
+          price: 'AED 20.00',
+          img: pistachioMonoCake,
+          category: 'Special Cakes',
+          description: 'A cake with pistachio and cream cheese frosting',
+          query: 'specialCakes'
+        },
+        {
+          id: 9,
+          name: 'Pistachio Rasberry Cake',
+          price: 'AED 130.00',
+          img: pistachioRaspberryCake,
+          category: 'Special Cakes',
+          description: 'A cake with pistachio and rasberry frosting',
+          query: 'specialCakes'
+        },
+        {
+          id: 10,
+          name: 'pumpkin Cake',
+          price: 'AED 130.00',
+          img: pumpkinCake,
+          category: 'Special Cakes',
+          description: 'A cake with pumpkin and cream cheese frosting',
+          query: 'specialCakes'
+        },
+        {
+          id: 11,
+          name: 'Red Velvet Cheese Cake',
+          price: 'AED 80.00',
+          img: redVelvetCheeseCake,
+          category: 'Special Cakes',
+          description: 'A cake with red velvet and cream cheese frosting',
+          query: 'specialCakes'
+        },
+        {
+          id: 12,
+          name: 'Tart Mini Cake',
+          price: 'AED 20.00',
+          img: tartMiniCake,
+          category: 'Special Cakes',
+          description: 'A cake with fruit and cream cheese frosting',
+          query: 'specialCakes'
+        },
+        {
+          id: 13,
+          name: 'Tiramisu Thurtha Cake',
+          price: 'AED 130.00',
+          img: tiramisuThurtha,
+          category: 'Special Cakes',
+          description: 'A cake with tiramisu and cream cheese frosting',
+          query: 'specialCakes'
+        },
+
 
       ]
     },
     {
       id: 4,
       name: 'Special Desserts',
-      items: []
+      url: 'special-desserts',
+      items: [
+        {
+          id: 1,
+          name: 'Assorted Dessert Glass',
+          price: 'AED 10.00',
+          img: assortedDessertGlass,
+          category: 'Special Desserts',
+          description: 'A glass with assorted desserts',
+          query: 'specialDesserts'
+        },
+        {
+          id: 2,
+          name: 'Brulee Mango Bowl',
+          price: 'AED 105.00',
+          img: bruleeMangoBowl,
+          category: 'Special Desserts',
+          description: 'A bowl with brulee mango',
+          query: 'specialDesserts'
+        },
+        {
+          id: 3,
+          name: 'Brulee Pistachio Bowl',
+          price: 'AED 120.00',
+          img: bruleePistachioBowl,
+          category: 'Special Desserts',
+          description: 'A bowl with brulee pistachio',
+          query: 'specialDesserts'
+        },
+        {
+          id: 4,
+          name: 'Brulee Saffron Bowl',
+          price: 'AED 105.00',
+          img: bruleeSaffroBowl,
+          category: 'Special Desserts',
+          description: 'A bowl with brulee saffron',
+          query: 'specialDesserts'
+        },
+        {
+          id: 5,
+          name: 'Brulee Vanilla Bowl',
+          price: 'AED 105.00',
+          img: bruleeVannillaBowl,
+          category: 'Special Desserts',
+          description: 'A bowl with brulee vanilla',
+          query: 'specialDesserts'
+        },
+        {
+          id: 6,
+          name: 'Princess Pistachio Bowl',
+          price: 'AED 120.00',
+          img: princessPistachioBowl,
+          category: 'Special Desserts',
+          description: 'A bowl with princess pistachio',
+          query: 'specialDesserts'
+        },
+
+      ]
     },
     {
       id: 3,
       name: 'Cakes',
+      url: 'cakes',
       items: [
+        {
+          id: 1,
+          name: 'Caramel Thurtha Big Cake',
+          price: 'AED 150.00',
+          img: caramelThurthaBig,
+          category: 'Cakes',
+          description: 'A cake with caramel and cream cheese frosting',
+          query: 'cakes'
+        },
+        {
+          id: 2,
+          name: 'Caramel Thurtha Small Cake',
+          price: 'AED 85.00',
+          img: caramelThurthaSmall,
+          category: 'Cakes',
+          description: 'A cake with caramel and cream cheese frosting',
+          query: 'cakes'
+        },
+        {
+          id: 3,
+          name: 'Chocolate Cake',
+          price: 'AED 150.00',
+          img: chocolateCake,
+          category: 'Cakes',
+          description: 'A cake with chocolate and cream cheese frosting',
+          query: 'cakes'
+        },
+        {
+          id: 4,
+          name: 'French Honey Cake',
+          price: 'AED 100.00',
+          img: frenchHoneyCakeRegular,
+          category: 'Cakes',
+          description: 'A cake with french honey and cream cheese frosting',
+          query: 'cakes'
+        },
+        {
+          id: 5,
+          name: 'Fruit Cake Large',
+          price: 'AED 150.00',
+          img: fruitCakeLarge,
+          category: 'Cakes',
+          description: 'A cake with fruit and cream cheese frosting',
+          query: 'cakes'
+        },
+        {
+          id: 6,
+          name: 'Fruit Cake Small',
+          price: 'AED 50.00',
+          img: fruitCakeSmall,
+          category: 'Cakes',
+          description: 'A cake with fruit and cream cheese frosting',
+          query: 'cakes'
+        },
+        {
+          id: 7,
+          name: 'Korean Cake',
+          price: 'AED 100.00',
+          img: koreanCake,
+          category: 'Cakes',
+          description: 'A cake with korean and cream cheese frosting',
+          query: 'cakes'
+        },
+        {
+          id: 7,
+          name: 'Korean Cake',
+          price: 'AED 100.00',
+          img: koreanCake1,
+          category: 'Cakes',
+          description: 'A cake with korean and cream cheese frosting',
+          query: 'cakes'
+        },
+        {
+          id: 7,
+          name: 'Korean Cake',
+          price: 'AED 100.00',
+          img: koreanCake2,
+          category: 'Cakes',
+          description: 'A cake with korean and cream cheese frosting',
+          query: 'cakes'
+        },
+
 
       ]
     },
     {
       id: 6,
       name: "Sweets",
+      url: "sweets",
       subCategories: [
         {
           id: randomIdGenerator(),

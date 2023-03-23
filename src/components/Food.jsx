@@ -12,7 +12,6 @@ const Food = ({ item, index }) => {
           className={`object-cover rounded shadow-2xl ${['Iced Drinks', 'Frappes'].includes(item.category) ? 'aspect-[9/16]' : ''} `}
         />
       </LazyLoad>
-
       <div className="font-semibold text-customYellow " align="center">
         <h2>{item.name}</h2>
         <p>{item.price}</p>

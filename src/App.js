@@ -16,8 +16,8 @@ const App = () => {
         </div>
         <Routes>
           <Route path="/" element={<Categories />} />
-          <Route path="/category/:id" element={<Category />} />
-          <Route path="product/:id" element={<ProductDetail />} />
+          <Route path="/:category" element={<Category />} />
+          <Route path="/:category/:id" element={<ProductDetail />} />
           <Route path="*" element={<h1>404</h1>} />
         </Routes>
 
