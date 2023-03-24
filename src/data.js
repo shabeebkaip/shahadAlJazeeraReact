@@ -51,7 +51,7 @@ import REDVELVETCHEESECAKE from "./assets/specialcakes/RED VELVET CHEESE CAKE 80
 // import PrincessPisthachioCake from "./assets/specialcakes/SAJ Princess Pisthachio Cake";
 // import PumkinMonoCake from "./assets/specialcakes/SAJ Pumkin Mono Cake";
 import tiramisuThurtha from "./assets/specialcakes/SAJ Tiramisu Thurtha.jpg";
-import TARTMINICAKE from "./assets/specialcakes/TART MINI CAKE 20 AED.jpg" 
+import TARTMINICAKE from "./assets/specialcakes/TART MINI CAKE 20 AED.jpg"
 // Special Desserts
 import assortedDessertGlass from "./assets/special desserts/ASSORTED DESSERT GLASS  10 AED.jpg";
 import bruleeMangoBowl from "./assets/special desserts/BRULEE MANGO BOWL 105 AED.jpg";
@@ -60,7 +60,7 @@ import bruleeSaffroBowl from "./assets/special desserts/BRULEE SAFFRO BOWL 105 A
 import bruleeVannillaBowl from "./assets/special desserts/BRULEE VANNILA BOWL 105 AED.jpg";
 import princessPistachioBowl from "./assets/special desserts/PRINCESS PISTACHIO BOWL 120 AED.jpg";
 import SAFFRONBRULEEBOWL from './assets/special desserts/SAFFRON BRULEE BOWL 105 AED.jpg'
-import VANNILABRULEEBOWL from'./assets/special desserts/VANNILA BRULEE BOWL 105 AED.jpg'
+import VANNILABRULEEBOWL from './assets/special desserts/VANNILA BRULEE BOWL 105 AED.jpg'
 // Cakes
 import caramelThurthaBig from "./assets/cakes/CARAMEL THURTHA BIG 150 AED-min.jpg";
 import caramelThurthaSmall from "./assets/cakes/CARAMEL THURTHA SMALL 85 AED-min.jpg";
@@ -774,7 +774,7 @@ export const menu = {
           description: "A cake with fruit and cream cheese frosting",
           query: "specialCakes",
         },
-      
+
         {
           id: 13,
           name: "Tiramisu Thurtha Cake",
@@ -846,19 +846,19 @@ export const menu = {
           query: "specialDesserts",
         },
         {
-          id:7,
-          name:"SAFFRON BRULEE BOWL",
-          price:" AED 105.00 ",
-          img:SAFFRONBRULEEBOWL,
+          id: 7,
+          name: "SAFFRON BRULEE BOWL",
+          price: " AED 105.00 ",
+          img: SAFFRONBRULEEBOWL,
           category: "Special Desserts",
           description: "A bowl with SAFFRON BRULEE  ",
           query: "specialDesserts",
         },
         {
-          id:8,
-          name:"VANNILA BRULEE BOWL",
-          price:"AED 105 ",
-          img:VANNILABRULEEBOWL,
+          id: 8,
+          name: "VANNILA BRULEE BOWL",
+          price: "AED 105 ",
+          img: VANNILABRULEEBOWL,
           category: "Special Desserts",
           description: "A bowl with VANNILA BRULEE BOWL",
           query: "specialDesserts",
