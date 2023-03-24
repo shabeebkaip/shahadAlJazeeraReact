@@ -6,6 +6,7 @@ import Food from '../components/Food'
 // Import Swiper styles
 import 'swiper/css';
 import 'swiper/css/navigation';
+import { tab } from '@testing-library/user-event/dist/tab';
 
 
 const Category = () => {
@@ -48,9 +49,9 @@ const Category = () => {
             <div className="grid grid-cols-2 gap-4 p-2 ">
               {
                 category.subCategories && category.subCategories.length ? category.subCategories[tabIndex].items.map((item, index) => (
-                  <Food key={index} item={item} />
+                  <Food key={index} item={item} params={params} category={category} subCategory={category.subCategories[tabIndex].url} />
                 )) : category.items.map((item, index) => (
-                  <Food key={index} item={item} />
+                  <Food key={index} item={item} params={params} category={category} />
                 ))
               }
             </div>

@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import { Home, ProductDetail, Categories, Category } from './pages';
+import { ProductDetail, Categories, Category } from './pages';
 import { AiFillInstagram, AiFillFacebook, AiOutlineWhatsApp } from 'react-icons/ai';
 import { FaSnapchatGhost } from 'react-icons/fa';
 import { IoIosCall } from 'react-icons/io';
@@ -18,6 +18,7 @@ const App = () => {
           <Route path="/" element={<Categories />} />
           <Route path="/:category" element={<Category />} />
           <Route path="/:category/:id" element={<ProductDetail />} />
+          <Route path="/:category/:subCategory/:id" element={<ProductDetail />} />
           <Route path="*" element={<h1>404</h1>} />
         </Routes>
 

@@ -1,10 +1,24 @@
 import React from 'react'
 import LazyLoad from 'react-lazyload'
+import { useNavigate } from 'react-router-dom'
 
-const Food = ({ item, index }) => {
+const Food = ({ item, index, params, category, subCategory }) => {
+  console.log(params)
+  const navigate = useNavigate()
   console.log(item)
+  const handleNavigate = () => {
+    console.log(category, 'category')
+    console.log(params, 'params')
+    console.log(subCategory, 'subCategory')
+    if (subCategory) {
+      navigate(`/${params.category}/${subCategory}/${item.id}`)
+    } else {
+      navigate(`/${params.category}/${item.id}`)
+    }
+
+  }
   return (
-    <div className="flex flex-col items-center gap-3 " key={index}>
+    <div className="flex flex-col items-center gap-3 " key={index} onClick={handleNavigate}>
       <LazyLoad once>
         <img
           src={item.img}

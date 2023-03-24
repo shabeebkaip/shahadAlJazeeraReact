@@ -1,24 +1,18 @@
 import React, { useEffect, useState } from 'react'
 import logo from '../assets/logo.png'
 import { useParams, useNavigate } from 'react-router-dom'
-import { data } from '../data'
+import { menu } from '../data'
 import { LazyLoadImage } from 'react-lazy-load-image-component';
 import { IoIosArrowRoundBack } from 'react-icons/io'
 
 
 const ProductDetail = () => {
   const [product, setProduct] = useState()
-  const { id } = useParams()
+  const params = useParams()
   const navigate = useNavigate()
-  useEffect(() => {
-    setProduct(data.find(item => item.id == id))
-  }, [id])
-  console.log(product, 'product')
+  console.log(params, 'params')
   return (
     <div className='h-full'>
-      <div className="flex flex-col items-center justify-center " onClick={() => { navigate('/') }}>
-        <img src={logo} alt="jazeera" width={200} className="cursor-pointer" />
-      </div>
       {
         product &&
         <div className='flex flex-col gap-5 p-4 mb-10'>

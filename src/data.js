@@ -365,17 +365,16 @@ export const menu = {
         {
           id: 1,
           name: "Hot Drinks",
+          url: "hot-drinks",
           items: [
             {
               id: 1,
               name: "Cafe Latte",
               price: "AED 16.00",
               img: latte1,
-              subCategory: "Hot Drinks",
-
-              description:
-                "Smooth and creamy steamed milk with single origin short of espresso",
-              query: "hotDrinks",
+              subCategory: 'Hot Drinks',
+              description: 'Smooth and creamy steamed milk with single origin short of espresso',
+              query: 'hotDrinks'
             },
             {
               id: 2,
@@ -492,6 +491,7 @@ export const menu = {
         {
           id: 2,
           name: "Iced Drinks",
+          url: "iced-drinks",
           items: [
             {
               id: 13,
@@ -566,6 +566,7 @@ export const menu = {
         {
           id: 3,
           name: "Mojitos",
+          url: "mojitos",
           items: [
             {
               id: 20,
@@ -599,7 +600,8 @@ export const menu = {
           ],
         },
         {
-          name: "Frappes",
+          name: 'Frappes',
+          url: 'frappes',
           items: [
             {
               id: 23,
