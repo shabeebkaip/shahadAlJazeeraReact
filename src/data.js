@@ -51,7 +51,7 @@ import REDVELVETCHEESECAKE from "./assets/specialcakes/RED VELVET CHEESE CAKE 80
 // import PrincessPisthachioCake from "./assets/specialcakes/SAJ Princess Pisthachio Cake";
 // import PumkinMonoCake from "./assets/specialcakes/SAJ Pumkin Mono Cake";
 import tiramisuThurtha from "./assets/specialcakes/SAJ Tiramisu Thurtha.jpg";
-import TARTMINICAKE from "./assets/specialcakes/TART MINI CAKE 20 AED.jpg"
+import TARTMINICAKE from "./assets/specialcakes/TART MINI CAKE 20 AED.jpg";
 // Special Desserts
 import assortedDessertGlass from "./assets/special desserts/ASSORTED DESSERT GLASS  10 AED.jpg";
 import bruleeMangoBowl from "./assets/special desserts/BRULEE MANGO BOWL 105 AED.jpg";
@@ -59,8 +59,8 @@ import bruleePistachioBowl from "./assets/special desserts/BRULEE PISTACHIO BOWL
 import bruleeSaffroBowl from "./assets/special desserts/BRULEE SAFFRO BOWL 105 AED.jpg";
 import bruleeVannillaBowl from "./assets/special desserts/BRULEE VANNILA BOWL 105 AED.jpg";
 import princessPistachioBowl from "./assets/special desserts/PRINCESS PISTACHIO BOWL 120 AED.jpg";
-import SAFFRONBRULEEBOWL from './assets/special desserts/SAFFRON BRULEE BOWL 105 AED.jpg'
-import VANNILABRULEEBOWL from './assets/special desserts/VANNILA BRULEE BOWL 105 AED.jpg'
+import SAFFRONBRULEEBOWL from "./assets/special desserts/SAFFRON BRULEE BOWL 105 AED.jpg";
+import VANNILABRULEEBOWL from "./assets/special desserts/VANNILA BRULEE BOWL 105 AED.jpg";
 // Cakes
 import caramelThurthaBig from "./assets/cakes/CARAMEL THURTHA BIG 150 AED-min.jpg";
 import caramelThurthaSmall from "./assets/cakes/CARAMEL THURTHA SMALL 85 AED-min.jpg";
@@ -72,59 +72,54 @@ import koreanCake from "./assets/cakes/KOREAN CAKE 45 DH-min.jpg";
 import koreanCake1 from "./assets/cakes/KOREAN CAKE 45DH-min.jpg";
 import koreanCake2 from "./assets/cakes/KOREN CAKE 45 AED-min.jpg";
 // orientalsweets
-import  CHIPSIKO  from "./assets/orientalsweets/1. CHIPSIKO 90 AED.jpg";
-import   GALAXY    from "./assets/orientalsweets/2. GALAXY 70 AED.jpg";
-import  SNIKERS     from "./assets/orientalsweets/3. SNIKERS 70 AED.jpg";
-import CAKECAPPUCCINO  from "./assets/orientalsweets/4. CAKE CAPPUCCINO 57 AED.jpg";
-import  CAKEHAZELNUT  from "./assets/orientalsweets/5. CAKE HAZELNUT 52 AED.jpg";
+import CHIPSIKO from "./assets/orientalsweets/1. CHIPSIKO 90 AED.jpg";
+import GALAXY from "./assets/orientalsweets/2. GALAXY 70 AED.jpg";
+import SNIKERS from "./assets/orientalsweets/3. SNIKERS 70 AED.jpg";
+import CAKECAPPUCCINO from "./assets/orientalsweets/4. CAKE CAPPUCCINO 57 AED.jpg";
+import CAKEHAZELNUT from "./assets/orientalsweets/5. CAKE HAZELNUT 52 AED.jpg";
 import Cakeshahriyatoffy from "./assets/orientalsweets/6. Cake shahriya toffy 47 AED.jpg";
-import  CUPCAKELOTUS  from "./assets/orientalsweets/7. CUP CAKE LOTUS 57 AED.jpg";
+import CUPCAKELOTUS from "./assets/orientalsweets/7. CUP CAKE LOTUS 57 AED.jpg";
 import TRUFFLESNUTELLA from "./assets/orientalsweets/8. TRUFFLES NUTELLA 57 AED.jpg";
-import  TRUFFLESOREO from "./assets/orientalsweets/9. TRUFFLES OREO 57 AED.jpg";
+import TRUFFLESOREO from "./assets/orientalsweets/9. TRUFFLES OREO 57 AED.jpg";
 import JULLASHHAZELNUT from "./assets/orientalsweets/10. JULLASH HAZELNUT 50 AED.jpg";
 import CHEESECAKEBERRIES from "./assets/orientalsweets/11. CHEESE CAKE BERRIES 65 AED.jpg";
-import  CHEESECAKELOTUS  from "./assets/orientalsweets/12. CHEESE CAKE LOTUS 65 AED.jpg";
-import MINITIRAMISU  from "./assets/orientalsweets/13. MINI TIRAMISU 55 AED.jpg";
+import CHEESECAKELOTUS from "./assets/orientalsweets/12. CHEESE CAKE LOTUS 65 AED.jpg";
+import MINITIRAMISU from "./assets/orientalsweets/13. MINI TIRAMISU 55 AED.jpg";
 import CHEESEOREOCHOCOLATE from "./assets/orientalsweets/14. CHEESE OREO CHOCOLATE 60 AED.jpg";
 import CHEESECAKEROCKYMIX from "./assets/orientalsweets/15. CHEESE CAKE ROCKY MIX 65 AED.jpg";
-import  CHEESEBALLLOTUS  from "./assets/orientalsweets/16. CHEESE BALL LOTUS 65 AED.jpg";
-import MINICAKE  from "./assets/orientalsweets/17. MINI CAKE 50 AED.jpg";
-import REDVELVETMIX  from "./assets/orientalsweets/18. REDVELVET MIX 63 AED.jpg";
-import PURPLEVELVET  from "./assets/orientalsweets/19. PURPLE VELVET 65 AED.jpg";
+import CHEESEBALLLOTUS from "./assets/orientalsweets/16. CHEESE BALL LOTUS 65 AED.jpg";
+import MINICAKE from "./assets/orientalsweets/17. MINI CAKE 50 AED.jpg";
+import REDVELVETMIX from "./assets/orientalsweets/18. REDVELVET MIX 63 AED.jpg";
+import PURPLEVELVET from "./assets/orientalsweets/19. PURPLE VELVET 65 AED.jpg";
 import OREOCAKEMIX from "./assets/orientalsweets/20. OREO CAKE MIX 60 AED.jpg";
-import ECLAIRLOTUS  from "./assets/orientalsweets/21. ECLAIR LOTUS 57 AED.jpg";
+import ECLAIRLOTUS from "./assets/orientalsweets/21. ECLAIR LOTUS 57 AED.jpg";
 import ECLAIRSPECIALMIX from "./assets/orientalsweets/22. ECLAIR SPECIAL MIX 63 AED.jpg";
 import ECLAIRTOFFY from "./assets/orientalsweets/23. ECLAIR TOFFY 40 AED.jpg";
 import LOTUSPUDDING from "./assets/orientalsweets/24. LOTUS PUDDING 47 AED.jpg";
-import  OREOPUDDING from "./assets/orientalsweets/25. OREO PUDDING 47AED.jpg";
+import OREOPUDDING from "./assets/orientalsweets/25. OREO PUDDING 47.jpg";
 import PISTACHIOPUDDING from "./assets/orientalsweets/26. PISTACHIO PUDDING 47 AED.jpg";
 import MANGOPUDDING from "./assets/orientalsweets/27. MANGO PUDDING 42 AED (2).jpg";
 import RUMANPUDDING from "./assets/orientalsweets/28. RUMAN PUDDING 42 AED.jpg";
-import PUDDINGMIX  from "./assets/orientalsweets/29. PUDDING MIX 48 AED.jpg";
-import UMMNASER  from "./assets/orientalsweets/30. UMM-NASER 57 AED.jpg";
+import PUDDINGMIX from "./assets/orientalsweets/29. PUDDING MIX 48 AED.jpg";
+import UMMNASER from "./assets/orientalsweets/30. UMM-NASER 57 AED.jpg";
 
 //Savouries sweet
-import CROISSONLABANAH from "./assets/savories/CROISSON LABANAH 47 AED.jpg ";
-import CROISSONLABANAHMIX from "./assets/savories/CROISSON LABANAH MIX 85 AED.jpg"; 
-import CROISSONLEBANAH  from "./assets/savories/ CROISSON LEBANAH 47 AED.jpg";
-import FATAYERFRANCY from "./assets/savories/ FATAYER FRANCY 55 AED.jpg"; 
-import  FATAYERMIXLARGE from "./assets/savories/FATAYER MIX LARGE 58 AED.jpg ";
-import FATAYERSHAWAYA  from "./assets/savories/FATAYER SHAWAYA 53 AED.jpg ";
-import  FATAYERSPECIAL from "./assets/savories/FATAYER SPECIAL 90 AED.jpg "; 
-import  MINIBITES  from "./assets/savories/MINI BITES 75 AED.jpg "; 
-import  MINICROISSONLEBANAHMIX from "./assets/savories/MINI CROISSON LEBANAH MIX 85.jpg ";
-import  MINIFATAYERLARGE  from "./assets/savories/MINI FATAYER LARGE 55 AED.jpg ";
-import  MINISANDWICH  from "./assets/savories/MINI SANDWICH 70 AED.jpg";
-import  MUSAKHANROLL from "./assets/savories/MUSAKHAN ROLL 50 AED.jpg";
-import  SANDWICHFAKHER   from "./assets/savories/SANDWICH FAKHER 75 AED.jpg";
-import  SANDWICHSPECIALLARGE  from "./assets/savories/SANDWICH SPECIAL LARGE 95 AED.jpg";
-import SANDWICHSPECIALREGULAR  from "./assets/savories/SANDWICH SPECIAL REGULAR  63 AED.jpg";
-import SANDWICHSPECIALSMALL  from "./assets/savories/SANDWICH SPECIAL SMALL   63 AED.jpg";
-
-
-
-
- 
+import CROISSONLABANAH from "./assets/savories/CROISSON LABANAH 47 AED.jpg";
+import CROISSONLABANAHMIX from "./assets/savories/CROISSON LABANAH MIX 85 AED.jpg";
+ import CROISSONLEBANAH from "./assets/savories/CROISSON LEBANAH 47 AED.png";
+ import FATAYERFRANCY from "./assets/savories/FATAYER FRANCY 55 AED.jpg";
+ import FATAYERMIXLARGE from "./assets/savories/FATAYER MIX LARGE 58 AED.jpg";
+import FATAYERSHAWAYA from "./assets/savories/FATAYER SHAWAYA 53 AED.jpg";
+import  FATAYERSPECIAL from "./assets/savories/FATAYER SPECIAL 90 AED.jpg";
+import MINIBITES from "./assets/savories/MINI BITES 75 AED.jpg";
+import MINICROISSONLEBANAHMIX from "./assets/savories/MINI CROISSON LEBANAH MIX 85.png";
+import MINIFATAYERLARGE from "./assets/savories/MINI SANDWICH 70 AED.jpg";
+import MINISANDWICH from "./assets/savories/MUSAKHAN ROLL 50 AED.png";
+ import MUSAKHANROLL from "./assets/savories/SANDWICH FAKHER 75 AED.jpg";
+ import SANDWICHFAKHER from "./assets/savories/SANDWICH FAKHER 75 AED.jpg";
+ import SANDWICHSPECIALLARGE from "./assets/savories/SANDWICH SPECIAL LARGE 95 AED.jpg";
+ import SANDWICHSPECIALREGULAR from "./assets/savories/SANDWICH SPECIAL REGULAR  63 AED.jpg";
+ import SANDWICHSPECIALSMALL from "./assets/savories/SANDWICH SPECIAL SMALL   63 AED.png";
 const randomIdGenerator = () => {
   return Math.floor(Math.random() * 100000000 + 1);
 };
@@ -425,9 +420,10 @@ export const menu = {
               name: "Cafe Latte",
               price: "AED 16.00",
               img: latte1,
-              subCategory: 'Hot Drinks',
-              description: 'Smooth and creamy steamed milk with single origin short of espresso',
-              query: 'hotDrinks'
+              subCategory: "Hot Drinks",
+              description:
+                "Smooth and creamy steamed milk with single origin short of espresso",
+              query: "hotDrinks",
             },
             {
               id: 2,
@@ -653,8 +649,8 @@ export const menu = {
           ],
         },
         {
-          name: 'Frappes',
-          url: 'frappes',
+          name: "Frappes",
+          url: "frappes",
           items: [
             {
               id: 23,
@@ -915,7 +911,6 @@ export const menu = {
           category: "Special Desserts",
           description: "A bowl with VANNILA BRULEE BOWL",
           query: "specialDesserts",
-
         },
       ],
     },
@@ -1014,13 +1009,13 @@ export const menu = {
       subCategories: [
         {
           id: randomIdGenerator(),
-          name: "Arabian Sweets",
+          name: "orientalsweets",
           items: [
             {
-              id: randomIdGenerator(),
+              id: 1,
               name: "CHIPSIKO 90 AED",
               price: "AED 60.00",
-              img:  CHIPSIKO ,
+              img: CHIPSIKO,
               subCategory: "orientalsweets",
 
               description:
@@ -1028,37 +1023,37 @@ export const menu = {
               query: "hotDrinks",
             },
             {
-              id: randomIdGenerator(),
-            name:"GALAXY ",
+              id: 2,
+              name: "GALAXY ",
               price: "AED 70.00",
-              img:GALAXY ,
+              img: GALAXY,
               category: "orientalsweets",
               description:
                 "Combination of frothed milk blended with single origin espresso shot",
               query: "s",
             },
             {
-              id: randomIdGenerator(),
+              id: 3,
               name: "SNIKERS ",
               price: "AED 70.00",
-              img:SNIKERS ,
+              img: SNIKERS,
               category: "orientalsweets",
               description:
                 "Double shot of coffee  extraction with smooth and creamy textured milk",
               query: "orientalsweets",
             },
             {
-              id: randomIdGenerator(),
+              id: 4,
               name: "CAKE CAPPUCCINO ",
               price: "AED 57.00",
-              img:CAKECAPPUCCINO ,
+              img: CAKECAPPUCCINO,
               category: "orientalsweets",
               description:
                 "Sweet latte with combination of pistachio sauce, steamed fresh milk and espresso",
               query: "orientalsweets",
             },
             {
-              id: randomIdGenerator(),
+              id: 5,
               name: "CAKE HAZELNUT ",
               price: "AED 52.00",
               img: CAKEHAZELNUT,
@@ -1068,83 +1063,77 @@ export const menu = {
               query: "orientalsweets",
             },
             {
-              id: randomIdGenerator(),
+              id: 6,
               name: "Cake shahriya toffy 47 AED",
               price: "AED 47",
-              img:Cakeshahriyatoffy,
+              img: Cakeshahriyatoffy,
               category: "orientalsweets",
               description:
                 "Sweet latte with combination of  caramel based  sauce, steamed fresh milk and espresso",
               query: "orientalsweets",
             },
             {
-              id: randomIdGenerator(),
+              id: 7,
               name: "CUP CAKE LOTUS ",
               price: "AED 57.00",
-              img:CUPCAKELOTUS,
+              img: CUPCAKELOTUS,
               category: "orientalsweets",
               description:
                 "Sweet latte with combination of  Chocolate based  sauce, steamed fresh milk and espresso",
               query: "orientalsweets",
             },
             {
-              id: randomIdGenerator(),
+              id: 8,
               name: "TRUFFLES NUTELLA ",
               price: "57 AED",
-              img: TRUFFLESNUTELLA ,
+              img: TRUFFLESNUTELLA,
               category: "orientalsweets",
               description: "Rich hot chocolate with coffee",
               query: "orientalsweets",
             },
 
             {
-              id: randomIdGenerator(),
+              id: 9,
               name: "TRUFFLES OREO ",
               price: "AED 57.00",
-              img:TRUFFLESOREO ,
+              img: TRUFFLESOREO,
               category: "orientalsweets",
               description:
                 "Sweet latte with combination of  special spanish sauce, steamed fresh milk and espresso",
               query: "orientalsweets",
             },
             {
-              id: randomIdGenerator(),
+              id: 10,
               name: "JULLASH HAZELNUT ",
               price: "AED 50.00",
-              img:JULLASHHAZELNUT,
+              img: JULLASHHAZELNUT,
               category: "orientalsweets",
               description:
                 "Double shot of single origin coffee extraction with creamy and textured milk. Served in 4oz cup",
               query: "orientalsweets",
             },
             {
-              id: randomIdGenerator(),
-              name:"CHEESE CAKE BERRIES ",
+              id: 11,
+              name: "CHEESE CAKE BERRIES ",
               price: "AED 65.00",
-              img:CHEESECAKEBERRIES,
+              img: CHEESECAKEBERRIES,
               category: "orientalsweets",
               description:
                 "Manual brewing with v60 method that results in a rich, clean & tasteful cup",
               query: "orientalsweets",
             },
             {
-              id: "24",
+              id: 12,
               name: "CHEESE CAKE LOTUS ",
               price: "AED 65.00",
-              img: CHEESECAKELOTUS ,
+              img: CHEESECAKELOTUS,
               category: "orientalsweets",
               description:
                 "Double shot of single origin Brazilian espresso coffee",
               query: "orientalsweets",
             },
-          ],
-        },
-        {
-          id: randomIdGenerator(),
-          name: "Oriental",
-          items: [
             {
-              id: randomIdGenerator(),
+              id: 13,
               name: "MINI TIRAMISU ",
               price: "AED.55.00",
               img: MINITIRAMISU,
@@ -1153,146 +1142,146 @@ export const menu = {
               query: "orientalsweets",
             },
             {
-              id: randomIdGenerator(),
+              id: 14,
               name: "14. CHEESE OREO CHOCOLATE ",
               price: "AED 60.00",
-              img: CHEESEOREOCHOCOLATE ,
+              img: CHEESEOREOCHOCOLATE,
               category: "orientalsweets",
               description:
                 "Sweet latte with combination of  pistachio sauce, fresh milk and espresso over ice",
               query: "orientalsweets",
             },
             {
-              id: randomIdGenerator(),
+              id: 15,
               name: "CHEESECAKEROCKYMIX ",
               price: "AED 65.00",
-              img: CHEESECAKEROCKYMIX ,
+              img: CHEESECAKEROCKYMIX,
               category: "orientalsweets",
               description: "Rich hot chocolate with coffee over ice",
               query: "orientalsweets",
             },
             {
-              id: randomIdGenerator(),
+              id: 16,
               name: " CHEESE BALL LOTUS ",
               price: "AED 65.00",
-              img: CHEESEBALLLOTUS ,
+              img: CHEESEBALLLOTUS,
               category: "orientalsweets",
               description:
                 "Single origin Brazilian espresso coffee lengthened with water and ice",
               query: "orientalsweets",
             },
             {
-              id: randomIdGenerator(),
+              id: 17,
               name: " MINICAKE",
               price: "AED 50.00",
-              img:MINICAKE ,
+              img: MINICAKE,
               category: "orientalsweets",
               description:
                 "Sweet latte with combination of spanish sauce, fresh milk and espresso over ice",
               query: "orientalsweets",
             },
             {
-              id: randomIdGenerator(),
+              id: 18,
               name: "PURPLE VELVET ",
               price: "AED 65.00",
-              img:PURPLEVELVET  ,
+              img: PURPLEVELVET,
               category: "orientalsweets",
               description:
                 "Sweet latte with combination of caramel based sauce, fresh milk and espresso over ice",
               query: "orientalsweets",
             },
             {
-              id: randomIdGenerator(),
+              id: 19,
               name: "REDVELVETMIX ",
               price: "AED 63.00",
-              img:REDVELVETMIX,
+              img: REDVELVETMIX,
               category: "orientalsweets",
               description:
                 "Manual brewing with v60 method that results in a rich, clean & tasteful cup  with ice",
               query: "orientalsweets",
             },
             {
-              id: randomIdGenerator(),
+              id: 20,
               name: "REDVELVETMIX ",
               price: "AED 63.00",
-              img:REDVELVETMIX,
+              img: REDVELVETMIX,
               category: "orientalsweets",
               description:
                 "Manual brewing with v60 method that results in a rich, clean & tasteful cup  with ice",
               query: "orientalsweets",
             },
             {
-              id: randomIdGenerator(),
+              id: 21,
               name: "20. OREO CAKE MIX 60 AED",
               price: "AED 60.00",
-              img:OREOCAKEMIX ,
+              img: OREOCAKEMIX,
               category: "orientalsweets",
               description:
                 "Manual brewing with v60 method that results in a rich, clean & tasteful cup  with ice",
               query: "orientalsweets",
             },
             {
-              id: randomIdGenerator(),
+              id: 22,
               name: "CLAIR LOTUS  ",
               price: "AED 57.00",
-              img:ECLAIRLOTUS ,
+              img: ECLAIRLOTUS,
               category: "orientalsweets",
               description:
                 "Manual brewing with v60 method that results in a rich, clean & tasteful cup  with ice",
               query: "orientalsweets",
             },
             {
-              id: randomIdGenerator(),
+              id: 23,
               name: "ECLAIRSPECIALMIX  ",
               price: "AED 63.00",
-              img:ECLAIRSPECIALMIX ,
+              img: ECLAIRSPECIALMIX,
               category: "orientalsweets",
               description:
                 "Manual brewing with v60 method that results in a rich, clean & tasteful cup  with ice",
               query: "orientalsweets",
             },
             {
-              id: randomIdGenerator(),
+              id: 24,
               name: "ECLAIR TOFFY  ",
               price: "AED 40.00",
-              img:ECLAIRTOFFY,
+              img: ECLAIRTOFFY,
               category: "orientalsweets",
               description:
                 "Manual brewing with v60 method that results in a rich, clean & tasteful cup  with ice",
               query: "orientalsweets",
             },
             {
-              id: randomIdGenerator(),
+              id: 25,
               name: "LOTUS PUDDING  ",
               price: "AED 47.00",
-              img:LOTUSPUDDING ,
+              img: LOTUSPUDDING,
               category: "orientalsweets",
               description:
                 "Manual brewing with v60 method that results in a rich, clean & tasteful cup  with ice",
               query: "orientalsweets",
             },
             {
-              id: randomIdGenerator(),
+              id: 26,
               name: "OREO PUDDING  ",
               price: "AED 47.00",
-              img:OREOPUDDING,
+              img: OREOPUDDING,
               category: "orientalsweets",
               description:
                 "Manual brewing with v60 method that results in a rich, clean & tasteful cup  with ice",
               query: "orientalsweets",
             },
             {
-              id: randomIdGenerator(),
+              id: 27,
               name: "PISTACHIO PUDDING ",
               price: "AED 47 .00",
-              img:PISTACHIOPUDDING ,
+              img: PISTACHIOPUDDING,
               category: "orientalsweets",
               description:
                 "Manual brewing with v60 method that results in a rich, clean & tasteful cup  with ice",
               query: "orientalsweets",
             },
             {
-              id: randomIdGenerator(),
+              id: 28,
               name: "MANGO PUDDING",
               price: "AED 42.00",
               img: MANGOPUDDING,
@@ -1302,30 +1291,30 @@ export const menu = {
               query: "orientalsweets",
             },
             {
-              id: randomIdGenerator(),
+              id: 29,
               name: " RUMAN PUDDING ",
               price: "AED 42.00",
-              img:RUMANPUDDING,
+              img: RUMANPUDDING,
               category: "orientalsweets",
               description:
                 "Manual brewing with v60 method that results in a rich, clean & tasteful cup  with ice",
               query: "orientalsweets",
             },
             {
-              id: randomIdGenerator(),
+              id: 30,
               name: "PUDDING MIX   ",
               price: "AED 48.00",
-              img:PUDDINGMIX ,
+              img: PUDDINGMIX,
               category: "orientalsweets",
               description:
                 "Manual brewing with v60 method that results in a rich, clean & tasteful cup  with ice",
               query: "orientalsweets",
             },
             {
-              id: randomIdGenerator(),
+              id: 31,
               name: "UMM-NASER  ",
               price: "AED 57.00",
-              img:UMMNASER,
+              img: UMMNASER,
               category: "orientalsweets",
               description:
                 "Manual brewing with v60 method that results in a rich, clean & tasteful cup  with ice",
@@ -1335,7 +1324,6 @@ export const menu = {
         },
       ],
     },
-
     //SAVORIES
     {
       id: 5,
@@ -1343,162 +1331,142 @@ export const menu = {
       items: [
         {
           id: 1,
-          name: "Caramel Thurtha Big Cake",
-          price: "AED 150.00",
-          img: caramelThurthaBig,
+          name: "CROISSON LABANAH ",
+          price: "AED 47.00",
+          img: CROISSONLABANAH,
           category: "savories sweets",
           description: "A cake with caramel and cream cheese frosting",
           query: "savories sweets",
         },
         {
-          id: 1,
-          name: "Caramel Thurtha Big Cake",
-          price: "AED 150.00",
-          img: caramelThurthaBig,
+          id: 2,
+          name: "CROISSON LABANAH MIX 85 AED",
+          price: "AED 85.00",
+          img: CROISSONLABANAHMIX,
           category: "savories sweets",
           description: "A cake with caramel and cream cheese frosting",
           query: "cakes",
         },
         {
-          id: 1,
-          name: "Caramel Thurtha Big Cake",
-          price: "AED 150.00",
-          img: caramelThurthaBig,
+          id: 3,
+          name: "CROISSON LEBANAH ",
+          price: "AED 47.00",
+          img: CROISSONLEBANAH,
           category: "savories sweets",
           description: "A cake with caramel and cream cheese frosting",
           query: "savories sweets",
         },
         {
-          id: 1,
-          name: "Caramel Thurtha Big Cake",
-          price: "AED 150.00",
-          img: caramelThurthaBig,
+          id: 4,
+          name: "FATAYER FRANCY ",
+          price: "AED 55.00",
+          img: FATAYERFRANCY,
           category: "savories sweets",
           description: "A cake with caramel and cream cheese frosting",
           query: "savories sweets",
         },
         {
-          id: 1,
-          name: "Caramel Thurtha Big Cake",
-          price: "AED 150.00",
-          img: caramelThurthaBig,
+          id: 5,
+          name: "FATAYER MIX LARGE ",
+          price: "AED 58.00",
+          img: FATAYERMIXLARGE,
           category: "savories sweets",
           description: "A cake with caramel and cream cheese frosting",
           query: "savories sweets",
         },
         {
-          id: 1,
-          name: "Caramel Thurtha Big Cake",
-          price: "AED 150.00",
-          img: caramelThurthaBig,
+          id: 6,
+          name: "FATAYER SHAWAYA ",
+          price: "AED 53.00",
+          img: FATAYERSHAWAYA,
           category: "savories sweets",
           description: "A cake with caramel and cream cheese frosting",
           query: "savories sweets",
         },
         {
-          id: 1,
-          name: "Caramel Thurtha Big Cake",
-          price: "AED 150.00",
-          img: caramelThurthaBig,
+          id: 7,
+          name: "FATAYER SPECIAL 90 AED",
+          price: "AED 90.00",
+          img: FATAYERSPECIAL,
+          query: "savories sweets",
+        },
+        {
+          id: 8,
+          name: "MINI BITES ",
+          price: "AED 75.00",
+          img: MINIBITES,
           category: "savories sweets",
           description: "A cake with caramel and cream cheese frosting",
           query: "savories sweets",
         },
         {
-          id: 1,
-          name: "Caramel Thurtha Big Cake",
-          price: "AED 150.00",
-          img: caramelThurthaBig,
+          id: 9,
+          name: "MINI CROISSON LEBANAH",
+          price: "AED 85.00",
+          img: MINICROISSONLEBANAHMIX,
           category: "savories sweets",
           description: "A cake with caramel and cream cheese frosting",
           query: "savories sweets",
         },
         {
-          id: 1,
-          name: "Caramel Thurtha Big Cake",
-          price: "AED 150.00",
-          img: caramelThurthaBig,
+          id: 10,
+          name: "MINI FATAYER LARGE ",
+          price: "AED 55.00",
+          img: MINIFATAYERLARGE,
           category: "savories sweets",
           description: "A cake with caramel and cream cheese frosting",
           query: "savories sweets",
         },
         {
-          id: 1,
-          name: "Caramel Thurtha Big Cake",
+          id: 11,
+          name: "MINI SANDWICH ",
           price: "AED 150.00",
-          img: caramelThurthaBig,
+          img: MINISANDWICH,
           category: "savories sweets",
           description: "A cake with caramel and cream cheese frosting",
           query: "savories sweets",
         },
         {
-          id: 1,
-          name: "Caramel Thurtha Big Cake",
-          price: "AED 150.00",
-          img: caramelThurthaBig,
+          id: 12,
+          name: "MUSAKHAN ROLL 50 AED",
+          price: "AED 50.00",
+          img: MUSAKHANROLL,
           category: "savories sweets",
           description: "A cake with caramel and cream cheese frosting",
           query: "savories sweets",
         },
         {
-          id: 1,
-          name: "Caramel Thurtha Big Cake",
-          price: "AED 150.00",
-          img: caramelThurthaBig,
+          id: 13,
+          name: "SANDWICH FAKHER 75 AED",
+          price: "AED 75.00",
+          img: SANDWICHFAKHER,
           category: "savories sweets",
           description: "A cake with caramel and cream cheese frosting",
           query: "savories sweets",
         },
         {
-          id: 1,
-          name: "Caramel Thurtha Big Cake",
-          price: "AED 150.00",
-          img: caramelThurthaBig,
+          id: 14,
+          name: "SANDWICH SPECIAL LARGE ",
+          price: "AED 95.00",
+          img: SANDWICHSPECIALLARGE,
           category: "savories sweets",
           description: "A cake with caramel and cream cheese frosting",
           query: "savories sweets",
         },
         {
-          id: 1,
-          name: "Caramel Thurtha Big Cake",
-          price: "AED 150.00",
-          img: caramelThurthaBig,
+          id: 15,
+          name: "SANDWICH SPECIAL REGULAR  ",
+          price: "AED 63.00",
+          img: SANDWICHSPECIALREGULAR,
           category: "savories sweets",
           description: "A cake with caramel and cream cheese frosting",
           query: "savories sweets",
         },
         {
-          id: 1,
-          name: "Caramel Thurtha Big Cake",
-          price: "AED 150.00",
-          img: caramelThurthaBig,
-          category: "savories sweets",
-          description: "A cake with caramel and cream cheese frosting",
-          query: "savories sweets",
-        },
-        {
-          id: 1,
-          name: "Caramel Thurtha Big Cake",
-          price: "AED 150.00",
-          img: caramelThurthaBig,
-          category: "savories sweets",
-          description: "A cake with caramel and cream cheese frosting",
-          query: "savories sweets",
-        },
-        {
-          id: 1,
-          name: "Caramel Thurtha Big Cake",
-          price: "AED 150.00",
-          img: caramelThurthaBig,
-          category: "savories sweets",
-          description: "A cake with caramel and cream cheese frosting",
-          query: "savories sweets",
-        },
-        {
-          id: 1,
-          name: "Caramel Thurtha Big Cake",
-          price: "AED 150.00",
-          img: caramelThurthaBig,
+          id: 16,
+          name: "SANDWICH SPECIAL SMALL   ",
+          price: "AED 63.00",
+          img: SANDWICHSPECIALSMALL,
           category: "savories sweets",
           description: "A cake with caramel and cream cheese frosting",
           query: "savories sweets",
