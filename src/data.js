@@ -141,9 +141,6 @@ import KHALIYALARGE from "./assets/arabiansweets/16. KHALIYA LARGE 55 AED.jpg";
 import BAGLAWA from "./assets/arabiansweets/17. BAGLAWA AED 110.jpg";
 import AYOONJAMALMIXBOX from "./assets/arabiansweets/18. AYOON JAMAL MIX BOX 75 AED.jpg";
 
-const randomIdGenerator = () => {
-  return Math.floor(Math.random() * 100000000 + 1);
-};
 
 export const data = [
   {
@@ -564,7 +561,7 @@ export const menu = {
           url: "iced-drinks",
           items: [
             {
-              id: 13,
+              id: 1,
               name: "Iced Latte",
               price: "AED 16.00",
               img: icedLatte,
@@ -573,7 +570,7 @@ export const menu = {
               query: "icedDrinks",
             },
             {
-              id: 14,
+              id: 2,
               name: "Iced Pistachio Latte",
               price: "AED 23.00",
               img: icedPistachioLatte,
@@ -583,7 +580,7 @@ export const menu = {
               query: "icedDrinks",
             },
             {
-              id: 15,
+              id: 3,
               name: "Iced Mocha",
               price: "AED 24.00",
               img: icedMocha,
@@ -592,7 +589,7 @@ export const menu = {
               query: "icedDrinks",
             },
             {
-              id: 16,
+              id: 4,
               name: "Iced Americano",
               price: "AED 14.00",
               img: americano,
@@ -602,7 +599,7 @@ export const menu = {
               query: "icedDrinks",
             },
             {
-              id: 17,
+              id: 5,
               name: "Iced Spanish Latte",
               price: "AED 23.00",
               img: icedSpanishLatte,
@@ -612,7 +609,7 @@ export const menu = {
               query: "icedDrinks",
             },
             {
-              id: 18,
+              id: 6,
               name: "Iced Caramella",
               price: "AED 23.00",
               img: icedCaramella,
@@ -622,7 +619,7 @@ export const menu = {
               query: "icedDrinks",
             },
             {
-              id: 19,
+              id: 7,
               name: "Iced V60",
               price: "AED 23.00",
               img: icedV60,
@@ -670,6 +667,7 @@ export const menu = {
           ],
         },
         {
+          id: 4,
           name: "Frappes",
           url: "frappes",
           items: [
@@ -857,7 +855,7 @@ export const menu = {
       ],
     },
     {
-      id: 4,
+      id: 3,
       name: "Special Desserts",
       url: "special-desserts",
       items: [
@@ -936,7 +934,7 @@ export const menu = {
       ],
     },
     {
-      id: 3,
+      id: 4,
       name: "Cakes",
       url: "cakes",
       items: [
@@ -1004,7 +1002,7 @@ export const menu = {
           query: "cakes",
         },
         {
-          id: 7,
+          id: 8,
           name: "Korean Cake",
           price: "AED 100.00",
           img: koreanCake1,
@@ -1013,7 +1011,7 @@ export const menu = {
           query: "cakes",
         },
         {
-          id: 7,
+          id: 9,
           name: "Korean Cake",
           price: "AED 100.00",
           img: koreanCake2,
@@ -1024,12 +1022,12 @@ export const menu = {
       ],
     },
     {
-      id: 6,
+      id: 5,
       name: "Sweets",
       url: "sweets",
       subCategories: [
         {
-          id: randomIdGenerator(),
+          id: 1,
           name: "orientalsweets",
           items: [
             {
@@ -1038,7 +1036,6 @@ export const menu = {
               price: "AED 60.00",
               img: CHIPSIKO,
               subCategory: "orientalsweets",
-
               description:
                 "Smooth and creamy steamed milk with single origin short of espresso",
               query: "hotDrinks",
@@ -1223,7 +1220,7 @@ export const menu = {
             },
             {
               id: 20,
-              name: "REDVELVETMIX ",
+              name: "RED VELVET MIX ",
               price: "AED 63.00",
               img: REDVELVETMIX,
               category: "orientalsweets",
@@ -1233,7 +1230,7 @@ export const menu = {
             },
             {
               id: 21,
-              name: "20. OREO CAKE MIX 60 AED",
+              name: "OREO CAKE MIX 60 AED",
               price: "AED 60.00",
               img: OREOCAKEMIX,
               category: "orientalsweets",
@@ -1243,7 +1240,7 @@ export const menu = {
             },
             {
               id: 22,
-              name: "CLAIR LOTUS  ",
+              name: "CLAIR LOTUS",
               price: "AED 57.00",
               img: ECLAIRLOTUS,
               category: "orientalsweets",
@@ -1253,7 +1250,7 @@ export const menu = {
             },
             {
               id: 23,
-              name: "ECLAIRSPECIALMIX  ",
+              name: "ECLAIR SPECIAL MIX  ",
               price: "AED 63.00",
               img: ECLAIRSPECIALMIX,
               category: "orientalsweets",
@@ -1263,7 +1260,7 @@ export const menu = {
             },
             {
               id: 24,
-              name: "ECLAIR TOFFY  ",
+              name: "ECLAIR TOFFY",
               price: "AED 40.00",
               img: ECLAIRTOFFY,
               category: "orientalsweets",
@@ -1343,12 +1340,179 @@ export const menu = {
             },
           ],
         },
+        {
+          id: 2,
+          name: "Arabic Sweets",
+          items: [
+            {
+              id: "1",
+              name: "SHAHAD BASBOOSA MIX ",
+              price: "AED 65.00",
+              img: SHAHADBASBOOSAMIX,
+              category: "arabiansweets",
+              description: "A cake with caramel and cream cheese frosting",
+              query: "arabiansweets",
+            },
+            {
+              id: 2,
+              name: " BASBOOSA DATES SLICE ",
+              price: "AED 50.00",
+              img: BASBOOSADATESSLICE,
+              category: "arabiansweets",
+              description: "A cake with caramel and cream cheese frosting",
+              query: "arabiansweets",
+            },
+            {
+              id: 3,
+              name: "BASBOOSA KISHTA ",
+              price: "AED 47.00",
+              img: BASBOOSAKISHTA,
+              category: "arabiansweets",
+              description: "A cake with caramel and cream cheese frosting",
+              query: "arabiansweets",
+            },
+            {
+              id: 4,
+              name: " BASBOOSA PISTACHIO SLICE  ",
+              price: "AED 50.00",
+              img: BASBOOSAPISTACHIOSLICE,
+              category: "arabiansweets",
+              description: "A cake with caramel and cream cheese frosting",
+              query: "arabiansweets",
+            },
+            {
+              id: 5,
+              name: "BASBOOSA SPANIYA ",
+              price: "AED 52.00",
+              img: BASBOOSASPANIYA,
+              category: "arabiansweets",
+              description: "A cake with caramel and cream cheese frosting",
+              query: "arabiansweets",
+            },
+            {
+              id: 6,
+              name: "THAMARIA  ",
+              price: "AED 63.00",
+              img: THAMARIA,
+              category: "arabiansweets",
+              description: "A cake with caramel and cream cheese frosting",
+              query: "arabiansweets",
+            },
+            {
+              id: 7,
+              name: "RING CAKE SAFFRON ",
+              price: "AED 55.00",
+              img: RINGCAKESAFFRON,
+              query: "arabiansweets",
+            },
+            {
+              id: 8,
+              name: " ENGLISH CARAMEL  ",
+              price: "AED 70.00",
+              img: ENGLISHCARAMEL,
+              category: "arabiansweets",
+              description: "A cake with caramel and cream cheese frosting",
+              query: "arabiansweets",
+            },
+            {
+              id: 9,
+              name: " GHEEMATH JIBEN ",
+              price: "AED 47.00",
+              img: GHEEMATHJIBEN,
+              category: "arabiansweets",
+              description: "A cake with caramel and cream cheese frosting",
+              query: "arabiansweets",
+            },
+            {
+              id: 10,
+              name: " CUP KUNAFA MIX ",
+              price: "AED 57.00",
+              img: CUPKUNAFAMIX,
+              category: "arabiansweets",
+              description: "A cake with caramel and cream cheese frosting",
+              query: "arabiansweets",
+            },
+            {
+              id: 11,
+              name: "CAKE SHAHRIYA ",
+              price: "AED 45.00",
+              img: CAKESHAHRIYA,
+              category: "arabiansweets",
+              description: "A cake with caramel and cream cheese frosting",
+              query: "arabiansweets",
+            },
+            {
+              id: 12,
+              name: "BISCUIT KUWAITI ",
+              price: "AED 50.00",
+              img: BISCUITKUWAITI,
+              category: "arabiansweets",
+              description: "A cake with caramel and cream cheese frosting",
+              query: "arabiansweets",
+            },
+            {
+              id: 13,
+              name: "BUTTER COOKIES REGULAR ",
+              price: "AED 40.00",
+              img: BUTTERCOOKIESREGULAR,
+              category: "arabiansweets",
+              description: "A cake with caramel and cream cheese frosting",
+              query: "arabiansweets",
+            },
+            {
+              id: 14,
+              name: "KUNAFA CUTS  ",
+              price: "AED 47.00",
+              img: KUNAFACUTS,
+              category: "arabiansweets",
+              description: "A cake with caramel and cream cheese frosting",
+              query: "arabiansweets",
+            },
+            {
+              id: 15,
+              name: "RUMAN BISCUIT ",
+              price: "AED 57.00",
+              img: RUMANBISCUIT,
+              category: "arabiansweets",
+              description: "A cake with caramel and cream cheese frosting",
+              query: "arabiansweets",
+            },
+            {
+              id: 16,
+              name: "KHALIYA LARGE  ",
+              price: "AED 55.00",
+              img: KHALIYALARGE,
+              category: "arabiansweets",
+              description: "A cake with caramel and cream cheese frosting",
+              query: "arabiansweets",
+            },
+            {
+              id: 17,
+              name: "BAGLAWA ",
+              price: "AED 110.00",
+              img: BAGLAWA,
+              category: "arabiansweets",
+              description: "A cake with caramel and cream cheese frosting",
+              query: "arabiansweets",
+            },
+            {
+              id: 18,
+              name: " AYOON JAMAL MIX BOX ",
+              price: "AED 75.00",
+              img: AYOONJAMALMIXBOX,
+              category: "arabiansweets",
+              description: "A cake with caramel and cream cheese frosting",
+              query: "arabiansweets",
+            },
+          ],
+        },
       ],
     },
     //SAVORIES
     {
       id: 5,
       name: "Savouries",
+      url: 'savouries',
       items: [
         {
           id: 1,
@@ -1496,171 +1660,6 @@ export const menu = {
     },
 
     //arabic
-    {
-      id: 6,
-      name: "arabiansweets",
-      items: [
-        {
-          id: "1",
-          name:"SHAHAD BASBOOSA MIX ",
-          price: "AED 65.00",
-          img:SHAHADBASBOOSAMIX  ,
-          category: "arabiansweets",
-          description: "A cake with caramel and cream cheese frosting",
-          query: "arabiansweets",
-        },
-        {
-          id: 2,
-          name: " BASBOOSA DATES SLICE ",
-          price: "AED 50.00",
-          img:BASBOOSADATESSLICE  ,
-          category: "arabiansweets",
-          description: "A cake with caramel and cream cheese frosting",
-          query: "arabiansweets",
-        },
-        {
-          id: 3,
-          name: "BASBOOSA KISHTA ",
-          price: "AED 47.00",
-          img: BASBOOSAKISHTA ,
-          category: "arabiansweets",
-          description: "A cake with caramel and cream cheese frosting",
-          query: "arabiansweets",
-        },
-        {
-          id: 4,
-          name: " BASBOOSA PISTACHIO SLICE  ",
-          price: "AED 50.00",
-          img: BASBOOSAPISTACHIOSLICE ,
-          category: "arabiansweets",
-          description: "A cake with caramel and cream cheese frosting",
-          query: "arabiansweets",
-        },
-        {
-          id: 5,
-          name: "BASBOOSA SPANIYA ",
-          price: "AED 52.00",
-          img: BASBOOSASPANIYA ,
-          category: "arabiansweets",
-          description: "A cake with caramel and cream cheese frosting",
-          query: "arabiansweets",
-        },
-        {
-          id: 6,
-          name: "THAMARIA  ",
-          price: "AED 63.00",
-          img: THAMARIA,
-          category: "arabiansweets",
-          description: "A cake with caramel and cream cheese frosting",
-          query: "arabiansweets",
-        },
-        {
-          id: 7,
-          name: "RING CAKE SAFFRON ",
-          price: "AED 55.00",
-          img:  RINGCAKESAFFRON ,
-          query: "arabiansweets",
-        },
-        {
-          id: 8,
-          name: " ENGLISH CARAMEL  ",
-          price: "AED 70.00",
-          img: ENGLISHCARAMEL ,
-          category: "arabiansweets",
-          description: "A cake with caramel and cream cheese frosting",
-          query: "arabiansweets",
-        },
-        {
-          id: 9,
-          name: " GHEEMATH JIBEN ",
-          price: "AED 47.00",
-          img:  GHEEMATHJIBEN ,
-          category: "arabiansweets",
-          description: "A cake with caramel and cream cheese frosting",
-          query: "arabiansweets",
-        },
-        {
-          id: 10,
-          name: " CUP KUNAFA MIX ",
-          price: "AED 57.00",
-          img: CUPKUNAFAMIX ,
-          category: "arabiansweets",
-          description: "A cake with caramel and cream cheese frosting",
-          query: "arabiansweets",
-        },
-        {
-          id: 11,
-          name: "CAKE SHAHRIYA ",
-          price: "AED 45.00",
-          img:  CAKESHAHRIYA ,
-          category: "arabiansweets",
-          description: "A cake with caramel and cream cheese frosting",
-          query: "arabiansweets",
-        },
-        {
-          id: 12,
-          name: "BISCUIT KUWAITI ",
-          price: "AED 50.00",
-          img:  BISCUITKUWAITI ,
-          category: "arabiansweets",
-          description: "A cake with caramel and cream cheese frosting",
-          query: "arabiansweets",
-        },
-        {
-          id: 13,
-          name: "BUTTER COOKIES REGULAR ",
-          price: "AED 40.00",
-          img: BUTTERCOOKIESREGULAR ,
-          category: "arabiansweets",
-          description: "A cake with caramel and cream cheese frosting",
-          query: "arabiansweets",
-        },
-        {
-          id: 14,
-          name: "KUNAFA CUTS  ",
-          price: "AED 47.00",
-          img: KUNAFACUTS ,
-          category: "arabiansweets",
-          description: "A cake with caramel and cream cheese frosting",
-          query: "arabiansweets",
-        },
-        {
-          id: 15,
-          name: "RUMAN BISCUIT ",
-          price: "AED 57.00",
-          img:  RUMANBISCUIT,
-          category: "arabiansweets",
-          description: "A cake with caramel and cream cheese frosting",
-          query: "arabiansweets",
-        },
-        {
-          id: 16,
-          name: "KHALIYA LARGE  ",
-          price: "AED 55.00",
-          img: KHALIYALARGE ,
-          category: "arabiansweets",
-          description: "A cake with caramel and cream cheese frosting",
-          query: "arabiansweets",
-        },
-        {
-          id: 17,
-          name: "BAGLAWA ",
-          price: "AED 110.00",
-          img: BAGLAWA ,
-          category: "arabiansweets",
-          description: "A cake with caramel and cream cheese frosting",
-          query: "arabiansweets",
-        },
-        {
-          id: 18,
-          name: " AYOON JAMAL MIX BOX ",
-          price: "AED 75.00",
-          img: AYOONJAMALMIXBOX ,
-          category: "arabiansweets",
-          description: "A cake with caramel and cream cheese frosting",
-          query: "arabiansweets",
-        },
-      ],
-    },
+
   ],
 };

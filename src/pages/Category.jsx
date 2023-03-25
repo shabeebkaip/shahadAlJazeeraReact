@@ -11,7 +11,7 @@ import { tab } from '@testing-library/user-event/dist/tab';
 
 const Category = () => {
   const [tabIndex, setTabIndex] = useState(0);
-  const [category, setCategory] = useState();
+  const [category, setCategory] = useState({});
   const params = useParams();
 
   console.log(category)
@@ -22,13 +22,18 @@ const Category = () => {
     let category = menu.categories.find(item => item.url === params.category);
     if (category) {
       setCategory(category);
-      setTabIndex(menu.categories.indexOf(category));
+      if (category.subCategories && category.subCategories.length) {
+        setTabIndex(0)
+      } else {
+        setTabIndex(menu.categories.indexOf(category));
+      }
     } else {
       setCategory(menu.categories[0]);
       setTabIndex(0);
     }
   }, [params.category])
-  console.log('id', params)
+  console.log(category, 'category')
+  console.log(category.subCategories, 'check')
   return (
     <div className='flex flex-col items-center justify-center'>
       {
@@ -48,7 +53,7 @@ const Category = () => {
             </div>
             <div className="grid grid-cols-2 gap-4 p-2 ">
               {
-                category.subCategories && category.subCategories.length ? category.subCategories[tabIndex].items.map((item, index) => (
+                category.subCategories && category.subCategories.length ? category.subCategories[tabIndex] && category.subCategories[tabIndex].items.map((item, index) => (
                   <Food key={index} item={item} params={params} category={category} subCategory={category.subCategories[tabIndex].url} />
                 )) : category.items.map((item, index) => (
                   <Food key={index} item={item} params={params} category={category} />

@@ -1,5 +1,7 @@
 import React from 'react'
 import LazyLoad from 'react-lazyload'
+import { LazyLoadImage } from 'react-lazy-load-image-component'
+import 'react-lazy-load-image-component/src/effects/blur.css'
 import { useNavigate } from 'react-router-dom'
 
 const Food = ({ item, index, params, category, subCategory }) => {
@@ -20,10 +22,11 @@ const Food = ({ item, index, params, category, subCategory }) => {
   return (
     <div className="flex flex-col items-center gap-3 " key={index} onClick={handleNavigate}>
       <LazyLoad once>
-        <img
+        <LazyLoadImage
           src={item.img}
           alt={item.name}
           className={`object-cover rounded shadow-2xl ${['Iced Drinks', 'Frappes'].includes(item.category) ? 'aspect-[9/16]' : ''} `}
+          effect="blur"
         />
       </LazyLoad>
       <div className="font-semibold text-customYellow " align="center">
