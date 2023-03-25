@@ -20,7 +20,7 @@ const Food = ({ item, index, params, category, subCategory }) => {
 
   }
   return (
-    <div className="flex flex-col items-center gap-3 " key={index} onClick={handleNavigate}>
+    <div className="flex flex-col items-center gap-3 cursor-pointer" key={index} onClick={handleNavigate}>
       <LazyLoad once>
         <LazyLoadImage
           src={item.img}
