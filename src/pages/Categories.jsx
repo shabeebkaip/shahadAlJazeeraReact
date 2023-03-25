@@ -2,6 +2,7 @@ import React from 'react'
 import { menu } from '../data'
 import { useNavigate } from 'react-router-dom'
 
+
 const Categories = () => {
   const navigate = useNavigate()
   return (

@@ -7,7 +7,6 @@ import { FaSnapchatGhost } from 'react-icons/fa';
 import { IoIosCall } from 'react-icons/io';
 import logo from './assets/logo.png'
 const App = () => {
-  console.log(window.location.href)
   return (
     <Router >
       <div className='grid w-full h-full grid-cols-1 p-4 duration-300 bg-customGray scroll-smooth overflow-y lg:w-1/3 '>

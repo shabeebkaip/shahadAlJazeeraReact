@@ -1,20 +1,18 @@
 import React, { useState, useEffect } from 'react'
 import { menu } from '../data'
 import { useParams } from 'react-router-dom'
+
 import Food from '../components/Food'
 
 // Import Swiper styles
 import 'swiper/css';
 import 'swiper/css/navigation';
-import { tab } from '@testing-library/user-event/dist/tab';
-
-
+import Back from '../components/Back';
 const Category = () => {
   const [tabIndex, setTabIndex] = useState(0);
   const [category, setCategory] = useState({});
   const params = useParams();
 
-  console.log(category)
   const handleTabChange = (index) => {
     setTabIndex(index);
   }
@@ -32,8 +30,6 @@ const Category = () => {
       setTabIndex(0);
     }
   }, [params.category])
-  console.log(category, 'category')
-  console.log(category.subCategories, 'check')
   return (
     <div className='flex flex-col items-center justify-center'>
       {
@@ -62,6 +58,9 @@ const Category = () => {
             </div>
           </div> : null
       }
+      <div>
+        <Back url="/" />
+      </div>
     </div >
   )
 }
