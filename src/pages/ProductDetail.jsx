@@ -1,12 +1,10 @@
 import React, { useEffect, useState } from 'react'
-import logo from '../assets/logo.png'
-import { useParams, useNavigate } from 'react-router-dom'
+import { useParams } from 'react-router-dom'
 import { menu } from '../data'
 import { LazyLoadImage } from 'react-lazy-load-image-component';
 import 'react-lazy-load-image-component/src/effects/blur.css';
-import { IoIosArrowRoundBack } from 'react-icons/io'
 import { Swiper, SwiperSlide } from 'swiper/react';
-import { Navigation, Pagination, Scrollbar, A11y } from 'swiper';
+import { Navigation } from 'swiper';
 
 
 // Import Swiper styles

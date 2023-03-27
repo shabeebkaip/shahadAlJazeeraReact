@@ -59,14 +59,11 @@ import bruleePistachioBowl from "./assets/special desserts/BRULEE PISTACHIO BOWL
 import bruleeSaffroBowl from "./assets/special desserts/BRULEE SAFFRO BOWL 105 AED.jpg";
 import bruleeVannillaBowl from "./assets/special desserts/BRULEE VANNILA BOWL 105 AED.jpg";
 import princessPistachioBowl from "./assets/special desserts/PRINCESS PISTACHIO BOWL 120 AED.jpg";
-import SAFFRONBRULEEBOWL from "./assets/special desserts/SAFFRON BRULEE BOWL 105 AED.jpg";
-import VANNILABRULEEBOWL from "./assets/special desserts/VANNILA BRULEE BOWL 105 AED.jpg";
 // Cakes
 import caramelThurthaBig from "./assets/cakes/CARAMEL THURTHA BIG 150 AED-min.jpg";
 import caramelThurthaSmall from "./assets/cakes/CARAMEL THURTHA SMALL 85 AED-min.jpg";
 import chocolateCake from "./assets/cakes/CHOCOLATE CAKE 150 AED-min.jpg";
 import frenchHoneyCakeRegular from "./assets/cakes/FRENCH HONEY CAKE REGULAR 100 AED-min.jpg";
-import fruitCakeLarge from "./assets/cakes/FRUIT CAKE  LARGE 150 AED-min.jpg";
 import fruitCakeSmall from "./assets/cakes/FRUIT CAKE SMALL 50 AED-min.jpg";
 import koreanCake from "./assets/cakes/KOREAN CAKE 45 DH-min.jpg";
 import koreanCake1 from "./assets/cakes/KOREAN CAKE 45DH-min.jpg";
