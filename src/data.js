@@ -48,8 +48,8 @@ import pistachioMonoCake from "./assets/specialcakes/PISTACHIO MONO CAKE 20 AED.
 import pistachioRaspberryCake from "./assets/specialcakes/PISTACHIO RASPEBERRY CAKE 130 AED.jpg";
 import pumpkinCake from "./assets/specialcakes/PUMPKIN CAKE 130.jpg";
 import REDVELVETCHEESECAKE from "./assets/specialcakes/RED VELVET CHEESE CAKE 80 AED.jpg";
-// import PrincessPisthachioCake from "./assets/specialcakes/SAJ Princess Pisthachio Cake";
-// import PumkinMonoCake from "./assets/specialcakes/SAJ Pumkin Mono Cake";
+import PrincessPisthachioCake from "./assets/specialcakes/SAJ Princess Pisthachio Cake 210 AED.jpg";
+import PumkinMonoCake from "./assets/specialcakes/SAJ Pumkin Mono Cake 20 AED.jpg";
 import tiramisuThurtha from "./assets/specialcakes/SAJ Tiramisu Thurtha.jpg";
 import TARTMINICAKE from "./assets/specialcakes/TART MINI CAKE 20 AED.jpg";
 // Special Desserts
@@ -785,7 +785,7 @@ export const menu = {
           id: 15,
           name: 'Pumpkin Mono Cake',
           price: 'AED 20.00',
-          img: lemonBlueberryMonoCake,
+          img: PumkinMonoCake,
           category: 'Special Cakes',
           description: 'A cake with pumpkin and cream cheese frosting',
           query: 'specialCakes',
@@ -866,7 +866,7 @@ export const menu = {
           id: 17,
           name: "Princess Pistachio Cake",
           price: "AED 210.00",
-          img: REDVELVETCHEESECAKE,
+          img: PrincessPisthachioCake,
           category: "Special Cakes",
           description: "A cake with pistachio and cream cheese frosting",
           query: "specialCakes",
