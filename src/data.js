@@ -104,22 +104,19 @@ import PUDDINGMIX from "./assets/orientalsweets/29. PUDDING MIX 48 AED.jpg";
 import UMMNASER from "./assets/orientalsweets/30. UMM-NASER 57 AED.jpg";
 
 //Savouries sweet
-import CROISSONLABANAH from "./assets/savories/CROISSON LABANAH 47 AED.jpg";
-import CROISSONLABANAHMIX from "./assets/savories/CROISSON LABANAH MIX 85 AED.jpg";
-import CROISSONLEBANAH from "./assets/savories/CROISSON LEBANAH 47 AED.png";
-import FATAYERFRANCY from "./assets/savories/FATAYER FRANCY 55 AED.jpg";
-import FATAYERMIXLARGE from "./assets/savories/FATAYER MIX LARGE 58 AED.jpg";
-import FATAYERSHAWAYA from "./assets/savories/FATAYER SHAWAYA 53 AED.jpg";
-import FATAYERSPECIAL from "./assets/savories/FATAYER SPECIAL 90 AED.jpg";
-import MINIBITES from "./assets/savories/MINI BITES 75 AED.jpg";
-import MINICROISSONLEBANAHMIX from "./assets/savories/MINI CROISSON LEBANAH MIX 85.png";
-import MINIFATAYERLARGE from "./assets/savories/MINI SANDWICH 70 AED.jpg";
-import MINISANDWICH from "./assets/savories/MUSAKHAN ROLL 50 AED.png";
-import MUSAKHANROLL from "./assets/savories/SANDWICH FAKHER 75 AED.jpg";
-import SANDWICHFAKHER from "./assets/savories/SANDWICH FAKHER 75 AED.jpg";
-import SANDWICHSPECIALLARGE from "./assets/savories/SANDWICH SPECIAL LARGE 95 AED.jpg";
-import SANDWICHSPECIALREGULAR from "./assets/savories/SANDWICH SPECIAL REGULAR  63 AED.jpg";
-import SANDWICHSPECIALSMALL from "./assets/savories/SANDWICH SPECIAL SMALL   63 AED.png";
+import sandwichSpecialSmall from "./assets/savouries/SANDWICH SPECIAL SMALL   63 AED.png";
+import sandwichSpecialLarge from "./assets/savouries/SANDWICH SPECIAL LARGE 95 AED.jpg";
+import sandwichFakher from "./assets/savouries/SANDWICH FAKHER 75 AED.jpg";
+import miniSandwich from "./assets/savouries/MINI SANDWICH 70 AED.jpg";
+import musakhanRoll from "./assets/savouries/MUSAKHAN ROLL 50 AED.png";
+import fatayerMixLarge from "./assets/savouries/FATAYER MIX LARGE 58 AED.jpg";
+import miniCroissonLebanahMix from "./assets/savouries/MINI CROISSON LEBANAH MIX 85.png";
+import fatayerMixSpecial from "./assets/savouries/FATAYER SPECIAL 90 AED.jpg";
+import croissonLebanah from "./assets/savouries/CROISSON LEBANAH 47 AED.png";
+import miniFatayerLarge from "./assets/savouries/MINI FATAYER LARGE 55 AED.jpg";
+import fatayerShawaya from "./assets/savouries/FATAYER SHAWAYA 53 AED.jpg";
+import miniBites from "./assets/savouries/MINI BITES 75 AED.jpg";
+import fatayerFrancy from "./assets/savouries/FATAYER FRANCY 55 AED.jpg";
 
 //arabic sweet
 import SHAHADBASBOOSAMIX from "./assets/arabiansweets/1. SHAHAD BASBOOSA MIX 65 AED.jpg";
@@ -1268,9 +1265,9 @@ export const menu = {
       items: [
         {
           id: 1,
-          name: "SANDWICH SPECIAL REGULAR ",
+          name: "SANDWICH SPECIAL Small ",
           price: "AED 63.00",
-          img: SANDWICHSPECIALREGULAR,
+          img: sandwichSpecialSmall,
           category: "savories sweets",
           description: "",
           query: "savories sweets",
@@ -1279,7 +1276,7 @@ export const menu = {
           id: 2,
           name: "SANDWICH SPECIAL LARGE",
           price: "AED 95.00",
-          img: SANDWICHSPECIALLARGE,
+          img: sandwichSpecialLarge,
           category: "savories sweets",
           description: "",
           query: "savories sweets",
@@ -1288,7 +1285,7 @@ export const menu = {
           id: 3,
           name: "SANDWICH FAKHER",
           price: "AED 75.00",
-          img: SANDWICHFAKHER,
+          img: sandwichFakher,
           category: "savories sweets",
           description: "",
           query: "savories sweets",
@@ -1297,7 +1294,7 @@ export const menu = {
           id: 4,
           name: "MINI SANDWICH ",
           price: "AED 70.00",
-          img: MINISANDWICH,
+          img: miniSandwich,
           category: "savories sweets",
           description: "",
           query: "savories sweets",
@@ -1306,7 +1303,7 @@ export const menu = {
           id: 5,
           name: "MUSAKHAN ROLL",
           price: "AED 50.00",
-          img: MUSAKHANROLL,
+          img: musakhanRoll,
           category: "savories sweets",
           description: "",
           query: "savories sweets",
@@ -1315,7 +1312,7 @@ export const menu = {
           id: 6,
           name: "FATAYER MIX LARGE",
           price: "AED 58.00",
-          img: FATAYERMIXLARGE,
+          img: fatayerMixLarge,
           category: "savories sweets",
           description: "",
           query: "savories sweets",
@@ -1324,7 +1321,7 @@ export const menu = {
           id: 7,
           name: 'Mini Croisson Lebanah Mix',
           price: "AED 85.00",
-          img: MINICROISSONLEBANAHMIX,
+          img: miniCroissonLebanahMix,
           category: "savories sweets",
           description: "",
           query: "savories sweets",
@@ -1333,7 +1330,7 @@ export const menu = {
           id: 8,
           name: "FATAYER MIX SPECIAL",
           price: "AED 90.00",
-          img: FATAYERSPECIAL,
+          img: fatayerMixSpecial,
           category: "savories sweets",
           description: "",
           query: "savories sweets",
@@ -1342,7 +1339,7 @@ export const menu = {
           id: 1,
           name: "CROISSON LABANAH",
           price: "AED 47.00",
-          img: CROISSONLABANAH,
+          img: croissonLebanah,
           category: "savories sweets",
           description: "",
           query: "savories sweets",
@@ -1351,7 +1348,7 @@ export const menu = {
           id: 10,
           name: "MINI FATAYER LARGE ",
           price: "AED 55.00",
-          img: MINIFATAYERLARGE,
+          img: miniFatayerLarge,
           category: "savories sweets",
           description: "",
           query: "savories sweets",
@@ -1360,7 +1357,7 @@ export const menu = {
           id: 6,
           name: "FATAYER SHAWAYA",
           price: "AED 53.00",
-          img: FATAYERSHAWAYA,
+          img: fatayerShawaya,
           category: "savories sweets",
           description: "",
           query: "savories sweets",
@@ -1369,7 +1366,16 @@ export const menu = {
           id: 8,
           name: "MINI BITES",
           price: "AED 75.00",
-          img: MINIBITES,
+          img: miniBites,
+          category: "savories sweets",
+          description: "",
+          query: "savories sweets",
+        },
+        {
+          id: 9,
+          name: "Fatayer Francy",
+          price: "AED 55.00",
+          img: fatayerFrancy,
           category: "savories sweets",
           description: "",
           query: "savories sweets",
