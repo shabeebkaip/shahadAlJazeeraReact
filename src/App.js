@@ -21,7 +21,7 @@ const App = () => {
           <Route path="*" element={<h1>404</h1>} />
         </Routes>
 
-        <footer className='lg:hidden'>
+        <footer className=''>
           <div className={`flex flex-col items-center justify-center gap-3  mb-10 text-customYellow`} align="center">
             <a href='/'>shahadaljazeerauae.com</a>
             <div className='flex items-center justify-center gap-3'>

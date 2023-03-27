@@ -6,7 +6,7 @@ import { useNavigate } from 'react-router-dom'
 const Categories = () => {
   const navigate = useNavigate()
   return (
-    <div className='flex flex-col items-center justify-center mb-4' >
+    <div className='flex flex-col items-center justify-center h-screen mb-4'  >
       {
         menu.categories.map((item, index) => (
           <div key={index} className="w-full p-4 text-center uppercase" onClick={() => navigate(`/${item.url}`)}>
