@@ -19,8 +19,6 @@ import Back from '../components/Back';
 const ProductDetail = () => {
   const [products, setProducts] = useState()
   const params = useParams()
-  const navigate = useNavigate()
-  console.log(params)
   useEffect(() => {
     const category = menu.categories.find(item => item.url === params.category)
     if (params.subCategory) {
