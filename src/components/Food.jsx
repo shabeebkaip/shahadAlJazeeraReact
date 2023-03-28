@@ -5,8 +5,6 @@ import 'react-lazy-load-image-component/src/effects/blur.css'
 import { useNavigate } from 'react-router-dom'
 
 const Food = ({ item, index, params, category, subCategory }) => {
-
-  console.log(item, 'params')
   const navigate = useNavigate()
   const handleNavigate = () => {
     if (subCategory) {

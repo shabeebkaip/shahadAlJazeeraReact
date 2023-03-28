@@ -30,7 +30,6 @@ const Category = () => {
       setTabIndex(0);
     }
   }, [params.category])
-  console.log(category, 'tabIndex')
   return (
     <div className='flex flex-col items-center justify-center'>
       {
@@ -51,12 +50,10 @@ const Category = () => {
             <div className="grid grid-cols-2 gap-4 p-2">
               {
                 category.subCategories && category.subCategories.length ? category.subCategories[tabIndex] && category.subCategories[tabIndex].items.map((item, index) => {
-                  console.log(item, 'item')
                   return (
                     <Food key={index} item={item} params={params} category={category} subCategory={category.subCategories[tabIndex].url} />
                   )
                 }) : category.items.map((item, index) => {
-                  console.log(item, 'item')
                   return (
                     <Food key={index} item={item} params={params} category={category} />
                   )
