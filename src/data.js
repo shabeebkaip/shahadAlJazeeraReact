@@ -42,7 +42,7 @@ import chocolateCheeseCake from "./assets/specialcakes/CHOCLATE CHEESE CAKE 130.
 import fruitTartCake from "./assets/specialcakes/FRUIT TART CAKE 150 AED.jpg";
 import lemonBlueberryCake from "./assets/specialcakes/LEMON BLUEBERRY CAKE 130 AED.jpg";
 import lemonBlueberryMonoCake from "./assets/specialcakes/LEMON BLUEBERRY MONO CAKE 20 AED.jpg";
-
+import mappleMonoCake from "./assets/specialcakes/mapple mono cake 20 AED.jpg";
 import monoCakeChocolate from "./assets/specialcakes/MONO CAKE CHOCOLATE 20 AED.jpg";
 import pistachioMonoCake from "./assets/specialcakes/PISTACHIO MONO CAKE 20 AED.jpg";
 import pistachioRaspberryCake from "./assets/specialcakes/PISTACHIO RASPEBERRY CAKE 130 AED.jpg";
@@ -52,6 +52,7 @@ import PrincessPisthachioCake from "./assets/specialcakes/SAJ Princess Pisthachi
 import PumkinMonoCake from "./assets/specialcakes/SAJ Pumkin Mono Cake 20 AED.jpg";
 import tiramisuThurtha from "./assets/specialcakes/SAJ Tiramisu Thurtha.jpg";
 import TARTMINICAKE from "./assets/specialcakes/TART MINI CAKE 20 AED.jpg";
+
 // Special Desserts
 import assortedDessertGlass from "./assets/special desserts/ASSORTED DESSERT GLASS  10 AED.jpg";
 import bruleeMangoBowl from "./assets/special desserts/BRULEE MANGO BOWL 105 AED.jpg";
@@ -59,6 +60,7 @@ import bruleePistachioBowl from "./assets/special desserts/BRULEE PISTACHIO BOWL
 import bruleeSaffroBowl from "./assets/special desserts/BRULEE SAFFRO BOWL 105 AED.jpg";
 import bruleeVannillaBowl from "./assets/special desserts/BRULEE VANNILA BOWL 105 AED.jpg";
 import princessPistachioBowl from "./assets/special desserts/PRINCESS PISTACHIO BOWL 120 AED.jpg";
+
 // Cakes
 import caramelThurthaBig from "./assets/cakes/CARAMEL THURTHA BIG 150 AED-min.jpg";
 import caramelThurthaSmall from "./assets/cakes/CARAMEL THURTHA SMALL 85 AED-min.jpg";
@@ -68,6 +70,7 @@ import fruitCakeSmall from "./assets/cakes/FRUIT CAKE SMALL 50 AED-min.jpg";
 import koreanCake from "./assets/cakes/KOREAN CAKE 45 DH-min.jpg";
 import koreanCake1 from "./assets/cakes/KOREAN CAKE 45DH-min.jpg";
 import koreanCake2 from "./assets/cakes/KOREN CAKE 45 AED-min.jpg";
+
 // orientalsweets
 import CHIPSIKO from "./assets/orientalsweets/1. CHIPSIKO 90 AED.jpg";
 import GALAXY from "./assets/orientalsweets/2. GALAXY 70 AED.jpg";
@@ -498,7 +501,7 @@ export const menu = {
           id: 14,
           name: "Mapple Mono Cake",
           price: "AED 20.00",
-          img: lemonBlueberryMonoCake,
+          img: mappleMonoCake,
           category: "Special Cakes",
           description: "",
           query: "specialCakes",
@@ -773,7 +776,7 @@ export const menu = {
       subCategories: [
         {
           id: 1,
-          name: "orientalsweets",
+          name: "oriental sweets",
           url: "oriental-sweets",
           items: [
             {
@@ -783,7 +786,7 @@ export const menu = {
               img: CAKECAPPUCCINO,
               category: "orientalsweets",
               description:
-                "Sweet latte with combination of pistachio sauce, steamed fresh milk and espresso",
+                "",
               query: "orientalsweets",
             },
             {
@@ -793,7 +796,7 @@ export const menu = {
               img: CHEESECAKEBERRIES,
               category: "orientalsweets",
               description:
-                "Manual brewing with v60 method that results in a rich, clean & tasteful cup",
+                "",
               query: "orientalsweets",
             },
             {
@@ -803,7 +806,7 @@ export const menu = {
               img: CHEESECAKELOTUS,
               category: "orientalsweets",
               description:
-                "Double shot of single origin Brazilian espresso coffee",
+                "",
               query: "orientalsweets",
             },
             {
@@ -813,7 +816,7 @@ export const menu = {
               img: CHEESEOREOCHOCOLATE,
               category: "orientalsweets",
               description:
-                "Sweet latte with combination of  pistachio sauce, fresh milk and espresso over ice",
+                "",
               query: "orientalsweets",
             },
             {
@@ -822,7 +825,7 @@ export const menu = {
               price: "AED.55.00",
               img: MINITIRAMISU,
               category: "orientalsweets",
-              description: "Fresh milk with shot of espresso over ice",
+              description: "",
               query: "orientalsweets",
             },
             {
@@ -832,7 +835,7 @@ export const menu = {
               img: PURPLEVELVET,
               category: "orientalsweets",
               description:
-                "Sweet latte with combination of caramel based sauce, fresh milk and espresso over ice",
+                "",
               query: "orientalsweets",
             },
             {
@@ -842,7 +845,7 @@ export const menu = {
               img: OREOCAKEMIX,
               category: "orientalsweets",
               description:
-                "Manual brewing with v60 method that results in a rich, clean & tasteful cup  with ice",
+                "",
               query: "orientalsweets",
             },
             {
@@ -852,7 +855,7 @@ export const menu = {
               img: REDVELVETMIX,
               category: "orientalsweets",
               description:
-                "Manual brewing with v60 method that results in a rich, clean & tasteful cup  with ice",
+                "",
               query: "orientalsweets",
             },
             {
@@ -862,7 +865,7 @@ export const menu = {
               img: MINICAKE,
               category: "orientalsweets",
               description:
-                "Sweet latte with combination of spanish sauce, fresh milk and espresso over ice",
+                "",
               query: "orientalsweets",
             },
             {
@@ -1046,11 +1049,11 @@ export const menu = {
             {
               id: 28,
               name: "CHIPSIKO",
-              price: "AED 60.00",
+              price: "AED 90.00",
               img: CHIPSIKO,
               subCategory: "orientalsweets",
               description:
-                "Smooth and creamy steamed milk with single origin short of espresso",
+                "",
               query: "hotDrinks",
             },
             {
@@ -1060,7 +1063,7 @@ export const menu = {
               img: GALAXY,
               category: "orientalsweets",
               description:
-                "Combination of frothed milk blended with single origin espresso shot",
+                "",
               query: "s",
             },
             {
@@ -1070,7 +1073,7 @@ export const menu = {
               img: SNIKERS,
               category: "orientalsweets",
               description:
-                "Double shot of coffee  extraction with smooth and creamy textured milk",
+                "",
               query: "orientalsweets",
             },
             {
@@ -1080,7 +1083,7 @@ export const menu = {
               img: REDVELVETMIX,
               category: "orientalsweets",
               description:
-                "Manual brewing with v60 method that results in a rich, clean & tasteful cup  with ice",
+                "",
               query: "orientalsweets",
             },
           ],
@@ -1262,7 +1265,7 @@ export const menu = {
       items: [
         {
           id: 1,
-          name: "SANDWICH SPECIAL Small ",
+          name: "SANDWICH SPECIAL Regular",
           price: "AED 63.00",
           img: sandwichSpecialSmall,
           category: "savories sweets",

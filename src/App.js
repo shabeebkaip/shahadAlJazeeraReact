@@ -22,7 +22,7 @@ const App = () => {
         </Routes>
 
         <footer className=''>
-          <div className={`flex flex-col items-center justify-center gap-3  mb-10 text-customYellow`} align="center">
+          <div className={`flex flex-col items-center justify-center gap-3     text-customYellow`} align="center">
             <a href='/'>shahadaljazeerauae.com</a>
             <div className='flex items-center justify-center gap-3'>
               <a href='https://www.instagram.com/shahadaljazeerauae/'><AiFillInstagram className='text-2xl text-customYellow' /></a>
