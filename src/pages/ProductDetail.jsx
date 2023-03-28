@@ -5,6 +5,7 @@ import { LazyLoadImage } from 'react-lazy-load-image-component';
 import 'react-lazy-load-image-component/src/effects/blur.css';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation } from 'swiper';
+import { AiOutlineWhatsApp } from 'react-icons/ai';
 
 
 // Import Swiper styles
@@ -26,6 +27,13 @@ const ProductDetail = () => {
       setProducts(category.items)
     }
   }, [params])
+  const handleOrder = () => {
+    let product = products.find(item => item.id === parseFloat(params.id))
+    let message = `Hi,\n\nI would like to order the following item:\n\n${product.name}\n${product.price}\n\nThanks,\n `
+    let phone = '9710545524755'; // Assuming the phone number is in the format "1234567890"
+    let url = `https://wa.me/${phone}?text=${encodeURIComponent(message)}`;
+    window.open(url, '_blank');
+  }
   return (
     <div className='h-full'>
       <Swiper
@@ -58,6 +66,7 @@ const ProductDetail = () => {
                     <h1 className='text-xl font-semibold text-center uppercase text-customYellow'>{product.name}</h1>
                     <p className='font-semibold text-center text-customYellow'>{product.price}</p>
                     <p className='text-center text-white ' >{product.description}</p>
+                    <button className='flex items-start gap-2 px-4 py-1 uppercase border border-customYellow rounded-2xl text-customYellow' onClick={handleOrder}> <AiOutlineWhatsApp className='text-2xl text-customYellow' /> Order now</button>
                   </div>
                 </div>
               </SwiperSlide>

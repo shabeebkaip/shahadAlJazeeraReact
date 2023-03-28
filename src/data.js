@@ -754,7 +754,7 @@ export const menu = {
         {
           id: 7,
           name: "Korean Cake",
-          price: "AED 45.00",
+          price: "AED 50.00",
           img: koreanCake1,
           category: "Cakes",
           description: "",
