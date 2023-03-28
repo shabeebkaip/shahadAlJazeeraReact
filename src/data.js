@@ -465,7 +465,7 @@ export const menu = {
       url: "special-cakes",
       items: [
         {
-          id: 8,
+          id: 1,
           name: "Pistachio Mono Cake",
           price: "AED 20.00",
           img: pistachioMonoCake,
@@ -483,7 +483,7 @@ export const menu = {
           query: "specialCakes",
         },
         {
-          id: 7,
+          id: 3,
           name: "Chocolate Cheese Mono Cake",
           price: "AED 20.00",
           img: monoCakeChocolate,
@@ -492,7 +492,7 @@ export const menu = {
           query: "specialCakes",
         },
         {
-          id: 6,
+          id: 4,
           name: "Lemon Blueberry Mono Cake",
           price: "AED 20.00",
           img: lemonBlueberryMonoCake,
@@ -501,7 +501,7 @@ export const menu = {
           query: "specialCakes",
         },
         {
-          id: 14,
+          id: 5,
           name: "Mapple Mono Cake",
           price: "AED 20.00",
           img: mappleMonoCake,
@@ -510,7 +510,7 @@ export const menu = {
           query: "specialCakes",
         },
         {
-          id: 15,
+          id: 6,
           name: 'Pumpkin Mono Cake',
           price: 'AED 20.00',
           img: PumkinMonoCake,
@@ -519,7 +519,7 @@ export const menu = {
           query: 'specialCakes',
         },
         {
-          id: 12,
+          id: 7,
           name: "Mini Tart Cake",
           price: "AED 20.00",
           img: TARTMINICAKE,
@@ -528,7 +528,7 @@ export const menu = {
           query: "specialCakes",
         },
         {
-          id: 9,
+          id: 8,
           name: "Pistachio Raspberry Cake",
           price: "AED 130.00",
           img: pistachioRaspberryCake,
@@ -537,7 +537,7 @@ export const menu = {
           query: "specialCakes",
         },
         {
-          id: 3,
+          id: 9,
           name: "Chocolate Cheese Cake",
           price: "AED 130.00",
           img: chocolateCheeseCake,
@@ -546,7 +546,7 @@ export const menu = {
           query: "specialCakes",
         },
         {
-          id: 5,
+          id: 10,
           name: "Lemon Blueberry Cake",
           price: "AED 130.00",
           img: lemonBlueberryCake,
@@ -555,7 +555,7 @@ export const menu = {
           query: "specialCakes",
         },
         {
-          id: 10,
+          id: 11,
           name: "pumpkin Cake",
           price: "AED 130.00",
           img: pumpkinCake,
@@ -564,7 +564,7 @@ export const menu = {
           query: "specialCakes",
         },
         {
-          id: 16,
+          id: 12,
           name: "Mapple Cake",
           price: "AED 130.00",
           img: mappleCake,
@@ -573,7 +573,7 @@ export const menu = {
           query: "specialCakes",
         },
         {
-          id: 1,
+          id: 13,
           name: "Carrot Cake",
           price: "AED 130.00",
           img: carrotCake,
@@ -582,7 +582,7 @@ export const menu = {
           query: "specialCakes",
         },
         {
-          id: 11,
+          id: 14,
           name: "Red Velvet Cheese Cake",
           price: "AED 80.00",
           img: REDVELVETCHEESECAKE,
@@ -591,7 +591,7 @@ export const menu = {
           query: "specialCakes",
         },
         {
-          id: 17,
+          id: 15,
           name: "Princess Pistachio Cake",
           price: "AED 210.00",
           img: PrincessPisthachioCake,
@@ -600,7 +600,7 @@ export const menu = {
           query: "specialCakes",
         },
         {
-          id: 4,
+          id: 16,
           name: "Fruit Tart Cake",
           price: "AED 100.00",
           img: fruitTartCake,
@@ -609,7 +609,7 @@ export const menu = {
           query: "specialCakes",
         },
         {
-          id: 13,
+          id: 17,
           name: "Tiramisu Cake",
           price: "AED 180.00",
           img: tiramisuThurtha,
@@ -626,7 +626,7 @@ export const menu = {
       url: "special-desserts",
       items: [
         {
-          id: 6,
+          id: 1,
           name: "Princess Pistachio Bowl",
           price: "AED 120.00",
           img: princessPistachioBowl,
@@ -635,7 +635,7 @@ export const menu = {
           query: "specialDesserts",
         },
         {
-          id: 5,
+          id: 2,
           name: "Brulee Vanilla Bowl",
           price: "AED 105.00",
           img: bruleeVannillaBowl,
@@ -644,7 +644,7 @@ export const menu = {
           query: "specialDesserts",
         },
         {
-          id: 4,
+          id: 3,
           name: "Brulee Saffron Bowl",
           price: "AED 105.00",
           img: bruleeSaffroBowl,
@@ -653,7 +653,7 @@ export const menu = {
           query: "specialDesserts",
         },
         {
-          id: 2,
+          id: 4,
           name: "Brulee Mango Bowl",
           price: "AED 105.00",
           img: bruleeMangoBowl,
@@ -662,7 +662,7 @@ export const menu = {
           query: "specialDesserts",
         },
         {
-          id: 3,
+          id: 5,
           name: "Brulee Pistachio Bowl",
           price: "AED 120.00",
           img: bruleePistachioBowl,
@@ -671,7 +671,7 @@ export const menu = {
           query: "specialDesserts",
         },
         {
-          id: 1,
+          id: 6,
           name: "Assorted Dessert Glass",
           price: "AED 10.00",
           img: assortedDessertGlass,
@@ -688,7 +688,7 @@ export const menu = {
       url: "cakes",
       items: [
         {
-          id: 3,
+          id: 1,
           name: "Chocolate Cake",
           price: "AED 150.00",
           img: chocolateCake,
@@ -697,7 +697,7 @@ export const menu = {
           query: "cakes",
         },
         {
-          id: 1,
+          id: 2,
           name: "Caramel Cake Large",
           price: "AED 150.00",
           img: caramelThurthaBig,
@@ -706,7 +706,7 @@ export const menu = {
           query: "cakes",
         },
         {
-          id: 4,
+          id: 3,
           name: "French Honey Cake",
           price: "AED 100.00",
           img: frenchHoneyCakeRegular,
@@ -715,7 +715,7 @@ export const menu = {
           query: "cakes",
         },
         {
-          id: 6,
+          id: 4,
           name: "Fruit Cake Regular",
           price: "AED 50.00",
           img: fruitCakeSmall,
@@ -724,7 +724,7 @@ export const menu = {
           query: "cakes",
         },
         {
-          id: 2,
+          id: 5,
           name: "Caramel Cake Regular",
           price: "AED 85.00",
           img: caramelThurthaSmall,
@@ -743,7 +743,7 @@ export const menu = {
         // },
 
         {
-          id: 7,
+          id: 6,
           name: "Korean Cake",
           price: "AED 45.00",
           img: koreanCake,
@@ -752,7 +752,7 @@ export const menu = {
           query: "cakes",
         },
         {
-          id: 8,
+          id: 7,
           name: "Korean Cake",
           price: "AED 45.00",
           img: koreanCake1,
@@ -761,7 +761,7 @@ export const menu = {
           query: "cakes",
         },
         {
-          id: 9,
+          id: 8,
           name: "Korean Cake",
           price: "AED 45.00",
           img: koreanCake2,
@@ -1107,7 +1107,7 @@ export const menu = {
             },
             {
               id: 2,
-              name: " BASBOOSA DATES SLICE ",
+              name: "BASBOOSA DATES SLICE ",
               price: "AED 50.00",
               img: BASBOOSADATESSLICE,
               category: "arabiansweets",
@@ -1125,7 +1125,7 @@ export const menu = {
             },
             {
               id: 4,
-              name: " BASBOOSA PISTACHIO SLICE",
+              name: "BASBOOSA PISTACHIO SLICE",
               price: "AED 50.00",
               img: BASBOOSAPISTACHIOSLICE,
               category: "arabiansweets",
@@ -1168,7 +1168,7 @@ export const menu = {
             },
             {
               id: 9,
-              name: " GHEEMATH JIBEN",
+              name: "GHEEMATH JIBEN",
               price: "AED 47.00",
               img: GHEEMATHJIBEN,
               category: "arabiansweets",
@@ -1177,7 +1177,7 @@ export const menu = {
             },
             {
               id: 10,
-              name: " CUP KUNAFA MIX",
+              name: "CUP KUNAFA MIX",
               price: "AED 57.00",
               img: CUPKUNAFAMIX,
               category: "arabiansweets",
@@ -1339,7 +1339,7 @@ export const menu = {
           query: "savories sweets",
         },
         {
-          id: 1,
+          id: 9,
           name: "CROISSON LABANAH",
           price: "AED 47.00",
           img: croissonLebanah,
@@ -1357,7 +1357,7 @@ export const menu = {
           query: "savories sweets",
         },
         {
-          id: 6,
+          id: 11,
           name: "FATAYER SHAWAYA",
           price: "AED 53.00",
           img: fatayerShawaya,
@@ -1366,7 +1366,7 @@ export const menu = {
           query: "savories sweets",
         },
         {
-          id: 8,
+          id: 12,
           name: "MINI BITES",
           price: "AED 75.00",
           img: miniBites,
@@ -1375,7 +1375,7 @@ export const menu = {
           query: "savories sweets",
         },
         {
-          id: 9,
+          id: 13,
           name: "Fatayer Francy",
           price: "AED 55.00",
           img: fatayerFrancy,
@@ -1384,7 +1384,7 @@ export const menu = {
           query: "savories sweets",
         },
         {
-          id: 10,
+          id: 14,
           name: "Croissant Special Mix",
           price: "AED 50.00",
           img: crooisantSpecialMix,
@@ -1393,7 +1393,7 @@ export const menu = {
           query: "savories sweets",
         },
         {
-          id: 11,
+          id: 15,
           name: "FATAYER MIX SENIA REGULAR",
           price: "AED 160.00",
           img: fatayerMixSeniaRegular,
