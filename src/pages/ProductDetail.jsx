@@ -30,7 +30,7 @@ const ProductDetail = () => {
   const handleOrder = () => {
     let product = products.find(item => item.id === parseFloat(params.id))
     let message = `Hi,\n\nI would like to order the following item:\n\n${product.name}\n${product.price}\n\nThanks,\n `
-    let phone = '+919497466888'; // Assuming the phone number is in the format "1234567890"
+    let phone = '9710545524755'; // Assuming the phone number is in the format "1234567890"
     let url = `https://wa.me/${phone}?text=${encodeURIComponent(message)}`;
     window.open(url, '_blank');
   }
