@@ -52,6 +52,7 @@ import PrincessPisthachioCake from "./assets/specialcakes/SAJ Princess Pisthachi
 import PumkinMonoCake from "./assets/specialcakes/SAJ Pumkin Mono Cake 20 AED.jpg";
 import tiramisuThurtha from "./assets/specialcakes/SAJ Tiramisu Thurtha.jpg";
 import TARTMINICAKE from "./assets/specialcakes/TART MINI CAKE 20 AED.jpg";
+import mappleCake from "./assets/specialcakes/mapple cake.jpg";
 
 // Special Desserts
 import assortedDessertGlass from "./assets/special desserts/ASSORTED DESSERT GLASS  10 AED.jpg";
@@ -564,7 +565,7 @@ export const menu = {
           id: 16,
           name: "Mapple Cake",
           price: "AED 130.00",
-          img: pumpkinCake,
+          img: mappleCake,
           category: "Special Cakes",
           description: "",
           query: "specialCakes",
