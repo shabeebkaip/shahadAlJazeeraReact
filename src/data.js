@@ -600,7 +600,7 @@ export const menu = {
         {
           id: 4,
           name: "Fruit Tart Cake",
-          price: "AED 150.00",
+          price: "AED 100.00",
           img: fruitTartCake,
           category: "Special Cakes",
           description: "",
