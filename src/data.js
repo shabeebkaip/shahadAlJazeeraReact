@@ -118,6 +118,8 @@ import miniFatayerLarge from "./assets/savouries/MINI FATAYER LARGE 55 AED.jpg";
 import fatayerShawaya from "./assets/savouries/FATAYER SHAWAYA 53 AED.jpg";
 import miniBites from "./assets/savouries/MINI BITES 75 AED.jpg";
 import fatayerFrancy from "./assets/savouries/FATAYER FRANCY 55 AED.jpg";
+import crooisantSpecialMix from "./assets/savouries/CROISSANT SPECIAL MIX 50AED (1).jpg";
+import fatayerMixSeniaRegular from "./assets/savouries/FATAYER MIX SENIA REGULAR 160AED.jpg";
 
 //arabic sweet
 import SHAHADBASBOOSAMIX from "./assets/arabiansweets/1. SHAHAD BASBOOSA MIX 65 AED.jpg";
@@ -1377,6 +1379,24 @@ export const menu = {
           name: "Fatayer Francy",
           price: "AED 55.00",
           img: fatayerFrancy,
+          category: "savories sweets",
+          description: "",
+          query: "savories sweets",
+        },
+        {
+          id: 10,
+          name: "Croissant Special Mix",
+          price: "AED 50.00",
+          img: crooisantSpecialMix,
+          category: "savories sweets",
+          description: "",
+          query: "savories sweets",
+        },
+        {
+          id: 11,
+          name: "FATAYER MIX SENIA REGULAR",
+          price: "AED 160.00",
+          img: fatayerMixSeniaRegular,
           category: "savories sweets",
           description: "",
           query: "savories sweets",
