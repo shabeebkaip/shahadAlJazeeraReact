@@ -6,8 +6,7 @@ import { useNavigate } from 'react-router-dom'
 
 const Food = ({ item, index, params, category, subCategory }) => {
 
-  console.log(params, 'params')
-  console.log(subCategory, 'subCategory')
+  console.log(item, 'params')
   const navigate = useNavigate()
   const handleNavigate = () => {
     if (subCategory) {
@@ -15,7 +14,6 @@ const Food = ({ item, index, params, category, subCategory }) => {
     } else {
       navigate(`/${params.category}/${item.id}`)
     }
-
   }
   return (
     <div className="flex flex-col items-center justify-between gap-3 cursor-pointer" key={index} onClick={handleNavigate}>
@@ -23,7 +21,7 @@ const Food = ({ item, index, params, category, subCategory }) => {
         <LazyLoadImage
           src={item.img}
           alt={item.name}
-          className={`object-cover rounded shadow-2xl ${['Iced Drinks', 'Frappes'].includes(item.category) ? 'aspect-[9/16]' : ''} `}
+          className={`object-cover rounded shadow-2xl ${['Iced Drinks', 'Frappes', 'savories sweets'].includes(item.category) ? 'aspect-[9/16]' : ''} `}
           effect="blur"
         />
       </LazyLoad>

@@ -17,7 +17,7 @@ const Footer = () => {
           <a href='tel:+971600569996'><IoIosCall className='text-2xl text-customYellow' /></a>
         </div>
         <div className='flex items-center justify-center gap-2'>
-          <div className='flex items-center'>
+          <div className='flex items-center font-semibold'>
             <p className='flex items-center gap-1 text-xs text-customYellow'><HiLocationMarker className='text-md text-customYellow' /> 𝗝ahili,</p>
             <p className='flex items-center gap-1 text-xs text-customYellow'>&nbsp; <HiLocationMarker className='text-md text-customYellow' /> Zakher ,</p>
             <p className='flex items-center gap-1 text-xs text-customYellow'>&nbsp; <HiLocationMarker className='text-md text-customYellow' /> Hili Naifa,</p>
