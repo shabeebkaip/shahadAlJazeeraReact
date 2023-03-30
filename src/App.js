@@ -4,7 +4,7 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import { ProductDetail, Categories, Category } from './pages';
 import { Footer } from './components';
 
-import logo from './assets/SAJ Golden Shade Logo.png'
+import logo from './assets/logo.png'
 const App = () => {
   return (
     <Router >
