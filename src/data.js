@@ -664,7 +664,7 @@ export const menu = {
         {
           id: 5,
           name: "Brulee Pistachio Bowl",
-          price: "AED 120.00",
+          price: "AED 105.00",
           img: bruleePistachioBowl,
           category: "Special Desserts",
           description: "",

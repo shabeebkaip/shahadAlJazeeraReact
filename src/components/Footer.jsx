@@ -1,13 +1,19 @@
 import React from 'react'
+import ramadanKareem from '../assets/SAJ Ramadan Kareem .png';
 import { AiFillInstagram, AiFillFacebook, AiOutlineWhatsApp } from 'react-icons/ai';
 import { FaSnapchatGhost } from 'react-icons/fa';
 import { IoIosCall } from 'react-icons/io';
 import { HiLocationMarker } from 'react-icons/hi';
 
+
 const Footer = () => {
   return (
     <footer className=''>
+
       <div className={`flex flex-col items-center justify-center gap-1  text-customYellow`} align="center">
+        <div>
+          <img src={ramadanKareem} alt="ramadanKareem" className='w-40' />
+        </div>
         <a href='/'>shahadaljazeerauae.com</a>
         <div className='flex items-center justify-center gap-3'>
           <a href='https://www.instagram.com/shahadaljazeerauae/'><AiFillInstagram className='text-2xl text-customYellow' /></a>
@@ -27,6 +33,7 @@ const Footer = () => {
         <div>
           <p className='text-xs text-customYellow'>© 2023 Shahad Al Jazeera. All rights reserved.</p>
         </div>
+
       </div>
     </footer>
   )
