@@ -741,7 +741,6 @@ export const menu = {
         //   description: "A cake with fruit and cream cheese frosting",
         //   query: "cakes",
         // },
-
         {
           id: 6,
           name: "Korean Cake",
@@ -878,7 +877,7 @@ export const menu = {
               img: Cakeshahriyatoffy,
               category: "orientalsweets",
               description:
-                "Sweet latte with combination of  caramel based  sauce, steamed fresh milk and espresso",
+                "",
               query: "orientalsweets",
             },
             {
@@ -888,7 +887,7 @@ export const menu = {
               img: CHEESEBALLLOTUS,
               category: "orientalsweets",
               description:
-                "Single origin Brazilian espresso coffee lengthened with water and ice",
+                "",
               query: "orientalsweets",
             },
             {
@@ -907,7 +906,7 @@ export const menu = {
               img: CUPCAKELOTUS,
               category: "orientalsweets",
               description:
-                "Sweet latte with combination of  Chocolate based  sauce, steamed fresh milk and espresso",
+                "",
               query: "orientalsweets",
             },
             {
@@ -917,7 +916,7 @@ export const menu = {
               img: ECLAIRLOTUS,
               category: "orientalsweets",
               description:
-                "Manual brewing with v60 method that results in a rich, clean & tasteful cup  with ice",
+                "",
               query: "orientalsweets",
             },
             {
@@ -927,7 +926,7 @@ export const menu = {
               img: ECLAIRSPECIALMIX,
               category: "orientalsweets",
               description:
-                "Manual brewing with v60 method that results in a rich, clean & tasteful cup  with ice",
+                "",
               query: "orientalsweets",
             },
             {
@@ -937,7 +936,7 @@ export const menu = {
               img: PUDDINGMIX,
               category: "orientalsweets",
               description:
-                "Manual brewing with v60 method that results in a rich, clean & tasteful cup  with ice",
+                "",
               query: "orientalsweets",
             },
             {
@@ -947,7 +946,7 @@ export const menu = {
               img: ECLAIRTOFFY,
               category: "orientalsweets",
               description:
-                "Manual brewing with v60 method that results in a rich, clean & tasteful cup  with ice",
+                "",
               query: "orientalsweets",
             },
             {
@@ -957,7 +956,7 @@ export const menu = {
               img: LOTUSPUDDING,
               category: "orientalsweets",
               description:
-                "Manual brewing with v60 method that results in a rich, clean & tasteful cup  with ice",
+                "",
               query: "orientalsweets",
             },
             {
@@ -967,7 +966,7 @@ export const menu = {
               img: MANGOPUDDING,
               category: "orientalsweets",
               description:
-                "Manual brewing with v60 method that results in a rich, clean & tasteful cup  with ice",
+                "",
               query: "orientalsweets",
             },
             {
@@ -977,7 +976,7 @@ export const menu = {
               img: RUMANPUDDING,
               category: "orientalsweets",
               description:
-                "Manual brewing with v60 method that results in a rich, clean & tasteful cup  with ice",
+                "",
               query: "orientalsweets",
             },
             {
@@ -987,7 +986,7 @@ export const menu = {
               img: OREOPUDDING,
               category: "orientalsweets",
               description:
-                "Manual brewing with v60 method that results in a rich, clean & tasteful cup  with ice",
+                "",
               query: "orientalsweets",
             },
             {
@@ -997,7 +996,7 @@ export const menu = {
               img: PISTACHIOPUDDING,
               category: "orientalsweets",
               description:
-                "Manual brewing with v60 method that results in a rich, clean & tasteful cup  with ice",
+                "",
               query: "orientalsweets",
             },
             {
@@ -1007,7 +1006,7 @@ export const menu = {
               img: UMMNASER,
               category: "orientalsweets",
               description:
-                "Manual brewing with v60 method that results in a rich, clean & tasteful cup  with ice",
+                "",
               query: "orientalsweets",
             },
             {
@@ -1017,7 +1016,7 @@ export const menu = {
               img: CAKEHAZELNUT,
               category: "orientalsweets",
               description:
-                "Single origin Brazilian espresso coffee lengthened with water",
+                "",
               query: "orientalsweets",
             },
             {
@@ -1027,7 +1026,7 @@ export const menu = {
               img: TRUFFLESOREO,
               category: "orientalsweets",
               description:
-                "Sweet latte with combination of  special spanish sauce, steamed fresh milk and espresso",
+                "",
               query: "orientalsweets",
             },
             {
@@ -1037,7 +1036,7 @@ export const menu = {
               img: JULLASHHAZELNUT,
               category: "orientalsweets",
               description:
-                "Double shot of single origin coffee extraction with creamy and textured milk. Served in 4oz cup",
+                "",
               query: "orientalsweets",
             },
             {
@@ -1074,16 +1073,6 @@ export const menu = {
               name: "SNIKERS",
               price: "AED 70.00",
               img: SNIKERS,
-              category: "orientalsweets",
-              description:
-                "",
-              query: "orientalsweets",
-            },
-            {
-              id: 31,
-              name: "RED VELVET MIX",
-              price: "AED 63.00",
-              img: REDVELVETMIX,
               category: "orientalsweets",
               description:
                 "",
