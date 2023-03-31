@@ -13,10 +13,10 @@ const App = () => {
           <img src={logo} alt="jazeera" width={200} className="drop-shadow-2xl" />
         </div>
         <Routes>
-          <Route path="/" element={<Categories />} />
-          <Route path="/:category" element={<Category />} />
-          <Route path="/:category/:id" element={<ProductDetail />} />
-          <Route path="/:category/:subCategory/:id" element={<ProductDetail />} />
+          <Route path="/" element={<Categories />} exact={true} />
+          <Route path="/:category" element={<Category />} exact={true} />
+          <Route path="/:category/:id" element={<ProductDetail />} exact={true} />
+          <Route path="/:category/:subCategory/:id" element={<ProductDetail />} exact={true} />
           <Route path="*" element={<h1>404</h1>} />
         </Routes>
         <Footer />
