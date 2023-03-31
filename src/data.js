@@ -53,6 +53,13 @@ import PumkinMonoCake from "./assets/specialcakes/SAJ Pumkin Mono Cake 20 AED.jp
 import tiramisuThurtha from "./assets/specialcakes/SAJ Tiramisu Thurtha.jpg";
 import TARTMINICAKE from "./assets/specialcakes/TART MINI CAKE 20 AED.jpg";
 import mappleCake from "./assets/specialcakes/mapple cake.jpg";
+import ChocolateCrunchyCake from "./assets/specialcakes/CHOCOLATE CRUNCHY CAKE 180 AED.JPG";
+import Img1 from "./assets/specialcakes/IMG_3001.JPG";
+import Img2 from "./assets/specialcakes/IMG_3207.JPG";
+import Img3 from "./assets/specialcakes/IMG_9038.JPG";
+import Img4 from "./assets/specialcakes/IMG_9611.JPG";
+import Img5 from "./assets/specialcakes/IMG_9618.JPG";
+import vanillaMixBerryCake from "./assets/specialcakes/VANNILA MIX BERRY CAKE 210 AED.JPG";
 
 // Special Desserts
 import assortedDessertGlass from "./assets/special desserts/ASSORTED DESSERT GLASS  10 AED.jpg";
@@ -61,6 +68,7 @@ import bruleePistachioBowl from "./assets/special desserts/BRULEE PISTACHIO BOWL
 import bruleeSaffroBowl from "./assets/special desserts/BRULEE SAFFRO BOWL 105 AED.jpg";
 import bruleeVannillaBowl from "./assets/special desserts/BRULEE VANNILA BOWL 105 AED.jpg";
 import princessPistachioBowl from "./assets/special desserts/PRINCESS PISTACHIO BOWL 120 AED.jpg";
+import exoticTartMix from "./assets/special desserts/EXOTIC TART MIX 126 AED.jpg";
 
 // Cakes
 import caramelThurthaBig from "./assets/cakes/CARAMEL THURTHA BIG 150 AED-min.jpg";
@@ -71,6 +79,10 @@ import fruitCakeSmall from "./assets/cakes/FRUIT CAKE SMALL 50 AED-min.jpg";
 import koreanCake from "./assets/cakes/KOREAN CAKE 45 DH-min.jpg";
 import koreanCake1 from "./assets/cakes/KOREAN CAKE 45DH-min.jpg";
 import koreanCake2 from "./assets/cakes/KOREN CAKE 45 AED-min.jpg";
+import flakesCake from "./assets/cakes/FLAKES CAKE 105 AED.JPG";
+import lotusCake from "./assets/cakes/LOTUS CAKE 160 AED.JPG";
+import nutellaCakeRegular from "./assets/cakes/NUTELLA CAKE REGULAR 105 AED.JPG";
+import strawberryCake from "./assets/cakes/STRAWBERRY CAKE 130 AED.JPG";
 
 // orientalsweets
 import CHIPSIKO from "./assets/orientalsweets/1. CHIPSIKO 90 AED.jpg";
@@ -103,6 +115,7 @@ import MANGOPUDDING from "./assets/orientalsweets/27. MANGO PUDDING 42 AED (2).j
 import RUMANPUDDING from "./assets/orientalsweets/28. RUMAN PUDDING 42 AED.jpg";
 import PUDDINGMIX from "./assets/orientalsweets/29. PUDDING MIX 48 AED.jpg";
 import UMMNASER from "./assets/orientalsweets/30. UMM-NASER 57 AED.jpg";
+import milkCakeSaffron from "./assets/orientalsweets/MILK CAKE SAFFRON 55 AED.JPG";
 
 //Savouries sweet
 import sandwichSpecialSmall from "./assets/savouries/SANDWICH SPECIAL SMALL   63 AED.png";
@@ -120,6 +133,8 @@ import miniBites from "./assets/savouries/MINI BITES 75 AED.jpg";
 import fatayerFrancy from "./assets/savouries/FATAYER FRANCY 55 AED.jpg";
 import crooisantSpecialMix from "./assets/savouries/CROISSANT SPECIAL MIX 50AED (1).jpg";
 import fatayerMixSeniaRegular from "./assets/savouries/FATAYER MIX SENIA REGULAR 160AED.jpg";
+import warganabRegular from "./assets/savouries/WARGANAB REGULAR 52 AED.JPG";
+import warganabSpecial from "./assets/savouries/WARGANAB SPECIAL 63 AED.jpg";
 
 //arabic sweet
 import SHAHADBASBOOSAMIX from "./assets/arabiansweets/1. SHAHAD BASBOOSA MIX 65 AED.jpg";
@@ -139,8 +154,9 @@ import KUNAFACUTS from "./assets/arabiansweets/14. KUNAFA CUTS 47 AED.jpg";
 import RUMANBISCUIT from "./assets/arabiansweets/15. RUMAN BISCUIT 57 AED.jpg";
 import KHALIYALARGE from "./assets/arabiansweets/16. KHALIYA LARGE 55 AED.jpg";
 import BAGLAWA from "./assets/arabiansweets/17. BAGLAWA AED 110.jpg";
-import AYOONJAMALMIXBOX from "./assets/arabiansweets/18. AYOON JAMAL MIX BOX 75 AED.jpg";
-
+import ayoonJamalMix from "./assets/arabiansweets/18. AYOON JAMAL MIX BOX 75 AED.jpg";
+import basboosaLabaneh from "./assets/arabiansweets/19. BASBOOSA LABANEH 57 AED.JPG";
+import mamoolThamar from "./assets/arabiansweets/20.MAMOOL THAMAR 63 AED.JPG";
 
 export const categories = [
   { label: "Hot Drinks", id: "hotDrinks" },
@@ -511,12 +527,12 @@ export const menu = {
         },
         {
           id: 6,
-          name: 'Pumpkin Mono Cake',
-          price: 'AED 20.00',
+          name: "Pumpkin Mono Cake",
+          price: "AED 20.00",
           img: PumkinMonoCake,
-          category: 'Special Cakes',
-          description: '',
-          query: 'specialCakes',
+          category: "Special Cakes",
+          description: "",
+          query: "specialCakes",
         },
         {
           id: 7,
@@ -617,6 +633,69 @@ export const menu = {
           description: "",
           query: "specialCakes",
         },
+        {
+          id: 18,
+          name: "Chocolate Crunchy Cake",
+          price: "AED 180.00",
+          img: ChocolateCrunchyCake,
+          category: "Special Cakes",
+          description: "",
+          query: "specialCakes",
+        },
+        {
+          id: 19,
+          name: "",
+          price: "AED 180.00",
+          img: Img1,
+          category: "Special Cakes",
+          description: "",
+          query: "specialCakes",
+        },
+        {
+          id: 20,
+          name: "",
+          price: "AED 180.00",
+          img: Img2,
+          category: "Special Cakes",
+          description: "",
+          query: "specialCakes",
+        },
+        {
+          id: 21,
+          name: "",
+          price: "AED 180.00",
+          img: Img3,
+          category: "Special Cakes",
+          description: "",
+          query: "specialCakes",
+        },
+        {
+          id: 22,
+          name: "",
+          price: "AED 180.00",
+          img: Img4,
+          category: "Special Cakes",
+          description: "",
+          query: "specialCakes",
+        },
+        {
+          id: 23,
+          name: "",
+          price: "AED 180.00",
+          img: Img5,
+          category: "Special Cakes",
+          description: "",
+          query: "specialCakes",
+        },
+        {
+          id: 24,
+          name: "Vanilla mix berry cake",
+          price: "AED 210.00",
+          img: vanillaMixBerryCake,
+          category: "Special Cakes",
+          description: "",
+          query: "specialCakes",
+        },
       ],
     },
     // special desserts
@@ -679,6 +758,15 @@ export const menu = {
           description: "",
           query: "specialDesserts",
         },
+        {
+          id: 7,
+          name: "Exotic Tart Mix ",
+          price: "AED 126.00",
+          img: exoticTartMix,
+          category: "Special Desserts",
+          description: "",
+          query: "specialDesserts",
+        },
       ],
     },
     // cakes
@@ -732,15 +820,7 @@ export const menu = {
           description: "",
           query: "cakes",
         },
-        // {
-        //   id: 5,
-        //   name: "Fruit Cake Large",
-        //   price: "AED 150.00",
-        //   img: fruitCakeLarge,
-        //   category: "Cakes",
-        //   description: "A cake with fruit and cream cheese frosting",
-        //   query: "cakes",
-        // },
+
         {
           id: 6,
           name: "Korean Cake",
@@ -768,6 +848,42 @@ export const menu = {
           description: "",
           query: "cakes",
         },
+        {
+          id: 9,
+          name: "Flakes Cake ",
+          price: "AED 105.00",
+          img: flakesCake,
+          category: "Cakes",
+          description: "",
+          query: "cakes",
+        },
+        {
+          id: 10,
+          name: "Lotus Cake",
+          price: "AED 160.00",
+          img: lotusCake,
+          category: "Cakes",
+          description: "",
+          query: "cakes",
+        },
+        {
+          id: 11,
+          name: "Nutella Cake Regular",
+          price: "AED 105.00",
+          img: nutellaCakeRegular,
+          category: "Cakes",
+          description: "",
+          query: "cakes",
+        },
+        {
+          id: 12,
+          name: "Strawberry Cake",
+          price: "AED 130.00",
+          img: strawberryCake,
+          category: "Cakes",
+          description: "",
+          query: "cakes",
+        },
       ],
     },
     // sweets
@@ -776,6 +892,7 @@ export const menu = {
       name: "Sweets",
       url: "sweets",
       subCategories: [
+        //oriental sweet
         {
           id: 1,
           name: "oriental sweets",
@@ -787,8 +904,7 @@ export const menu = {
               price: "AED 57.00",
               img: CAKECAPPUCCINO,
               category: "orientalsweets",
-              description:
-                "",
+              description: "",
               query: "orientalsweets",
             },
             {
@@ -797,8 +913,7 @@ export const menu = {
               price: "AED 65.00",
               img: CHEESECAKEBERRIES,
               category: "orientalsweets",
-              description:
-                "",
+              description: "",
               query: "orientalsweets",
             },
             {
@@ -807,8 +922,7 @@ export const menu = {
               price: "AED 65.00",
               img: CHEESECAKELOTUS,
               category: "orientalsweets",
-              description:
-                "",
+              description: "",
               query: "orientalsweets",
             },
             {
@@ -817,8 +931,7 @@ export const menu = {
               price: "AED 60.00",
               img: CHEESEOREOCHOCOLATE,
               category: "orientalsweets",
-              description:
-                "",
+              description: "",
               query: "orientalsweets",
             },
             {
@@ -836,8 +949,7 @@ export const menu = {
               price: "AED 65.00",
               img: PURPLEVELVET,
               category: "orientalsweets",
-              description:
-                "",
+              description: "",
               query: "orientalsweets",
             },
             {
@@ -846,8 +958,7 @@ export const menu = {
               price: "AED 60.00",
               img: OREOCAKEMIX,
               category: "orientalsweets",
-              description:
-                "",
+              description: "",
               query: "orientalsweets",
             },
             {
@@ -856,8 +967,7 @@ export const menu = {
               price: "AED 63.00",
               img: REDVELVETMIX,
               category: "orientalsweets",
-              description:
-                "",
+              description: "",
               query: "orientalsweets",
             },
             {
@@ -866,8 +976,7 @@ export const menu = {
               price: "AED 50.00",
               img: MINICAKE,
               category: "orientalsweets",
-              description:
-                "",
+              description: "",
               query: "orientalsweets",
             },
             {
@@ -876,8 +985,7 @@ export const menu = {
               price: "AED 47",
               img: Cakeshahriyatoffy,
               category: "orientalsweets",
-              description:
-                "",
+              description: "",
               query: "orientalsweets",
             },
             {
@@ -886,8 +994,7 @@ export const menu = {
               price: "AED 65.00",
               img: CHEESEBALLLOTUS,
               category: "orientalsweets",
-              description:
-                "",
+              description: "",
               query: "orientalsweets",
             },
             {
@@ -905,8 +1012,7 @@ export const menu = {
               price: "AED 57.00",
               img: CUPCAKELOTUS,
               category: "orientalsweets",
-              description:
-                "",
+              description: "",
               query: "orientalsweets",
             },
             {
@@ -915,8 +1021,7 @@ export const menu = {
               price: "AED 57.00",
               img: ECLAIRLOTUS,
               category: "orientalsweets",
-              description:
-                "",
+              description: "",
               query: "orientalsweets",
             },
             {
@@ -925,8 +1030,7 @@ export const menu = {
               price: "AED 63.00",
               img: ECLAIRSPECIALMIX,
               category: "orientalsweets",
-              description:
-                "",
+              description: "",
               query: "orientalsweets",
             },
             {
@@ -935,8 +1039,7 @@ export const menu = {
               price: "AED 48.00",
               img: PUDDINGMIX,
               category: "orientalsweets",
-              description:
-                "",
+              description: "",
               query: "orientalsweets",
             },
             {
@@ -945,8 +1048,7 @@ export const menu = {
               price: "AED 40.00",
               img: ECLAIRTOFFY,
               category: "orientalsweets",
-              description:
-                "",
+              description: "",
               query: "orientalsweets",
             },
             {
@@ -955,8 +1057,7 @@ export const menu = {
               price: "AED 47.00",
               img: LOTUSPUDDING,
               category: "orientalsweets",
-              description:
-                "",
+              description: "",
               query: "orientalsweets",
             },
             {
@@ -965,8 +1066,7 @@ export const menu = {
               price: "AED 42.00",
               img: MANGOPUDDING,
               category: "orientalsweets",
-              description:
-                "",
+              description: "",
               query: "orientalsweets",
             },
             {
@@ -975,8 +1075,7 @@ export const menu = {
               price: "AED 42.00",
               img: RUMANPUDDING,
               category: "orientalsweets",
-              description:
-                "",
+              description: "",
               query: "orientalsweets",
             },
             {
@@ -985,8 +1084,7 @@ export const menu = {
               price: "AED 47.00",
               img: OREOPUDDING,
               category: "orientalsweets",
-              description:
-                "",
+              description: "",
               query: "orientalsweets",
             },
             {
@@ -995,8 +1093,7 @@ export const menu = {
               price: "AED 47 .00",
               img: PISTACHIOPUDDING,
               category: "orientalsweets",
-              description:
-                "",
+              description: "",
               query: "orientalsweets",
             },
             {
@@ -1005,8 +1102,7 @@ export const menu = {
               price: "AED 57.00",
               img: UMMNASER,
               category: "orientalsweets",
-              description:
-                "",
+              description: "",
               query: "orientalsweets",
             },
             {
@@ -1015,8 +1111,7 @@ export const menu = {
               price: "AED 52.00",
               img: CAKEHAZELNUT,
               category: "orientalsweets",
-              description:
-                "",
+              description: "",
               query: "orientalsweets",
             },
             {
@@ -1025,8 +1120,7 @@ export const menu = {
               price: "AED 57.00",
               img: TRUFFLESOREO,
               category: "orientalsweets",
-              description:
-                "",
+              description: "",
               query: "orientalsweets",
             },
             {
@@ -1035,8 +1129,7 @@ export const menu = {
               price: "AED 50.00",
               img: JULLASHHAZELNUT,
               category: "orientalsweets",
-              description:
-                "",
+              description: "",
               query: "orientalsweets",
             },
             {
@@ -1054,8 +1147,7 @@ export const menu = {
               price: "AED 90.00",
               img: CHIPSIKO,
               subCategory: "orientalsweets",
-              description:
-                "",
+              description: "",
               query: "hotDrinks",
             },
             {
@@ -1064,8 +1156,7 @@ export const menu = {
               price: "AED 70.00",
               img: GALAXY,
               category: "orientalsweets",
-              description:
-                "",
+              description: "",
               query: "s",
             },
             {
@@ -1074,12 +1165,21 @@ export const menu = {
               price: "AED 70.00",
               img: SNIKERS,
               category: "orientalsweets",
-              description:
-                "",
+              description: "",
+              query: "orientalsweets",
+            },
+            {
+              id: 31,
+              name: "Milk Cake Saffron",
+              price: "AED 55.00",
+              img: milkCakeSaffron,
+              category: "orientalsweets",
+              description: "",
               query: "orientalsweets",
             },
           ],
         },
+        //arabian sweet
         {
           id: 2,
           name: "Arabic Sweets",
@@ -1240,7 +1340,25 @@ export const menu = {
               id: 18,
               name: "AYOON JAMAL MIX BOX",
               price: "AED 75.00",
-              img: AYOONJAMALMIXBOX,
+              img: ayoonJamalMix,
+              category: "arabiansweets",
+              description: "",
+              query: "arabiansweets",
+            },
+            {
+              id: 19,
+              name: "basboosa Labaneh ",
+              price: "AED 57.00",
+              img: basboosaLabaneh,
+              category: "arabiansweets",
+              description: "",
+              query: "arabiansweets",
+            },
+            {
+              id: 20,
+              name: "mamool Thamar",
+              price: "AED 63.00",
+              img: mamoolThamar,
               category: "arabiansweets",
               description: "",
               query: "arabiansweets",
@@ -1253,7 +1371,7 @@ export const menu = {
     {
       id: 5,
       name: "Savouries",
-      url: 'savouries',
+      url: "savouries",
       items: [
         {
           id: 1,
@@ -1311,7 +1429,7 @@ export const menu = {
         },
         {
           id: 7,
-          name: 'Mini Croisson Lebanah Mix',
+          name: "Mini Croisson Lebanah Mix",
           price: "AED 85.00",
           img: miniCroissonLebanahMix,
           category: "savories sweets",
@@ -1386,6 +1504,24 @@ export const menu = {
           name: "FATAYER MIX SENIA REGULAR",
           price: "AED 160.00",
           img: fatayerMixSeniaRegular,
+          category: "savories sweets",
+          description: "",
+          query: "savories sweets",
+        },
+        {
+          id: 16,
+          name: "Warganab Regular",
+          price: "AED 52.00",
+          img: warganabRegular,
+          category: "savories sweets",
+          description: "",
+          query: "savories sweets",
+        },
+        {
+          id: 17,
+          name: "Warganab Special",
+          price: "AED 63.00",
+          img: warganabSpecial,
           category: "savories sweets",
           description: "",
           query: "savories sweets",
