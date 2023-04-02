@@ -644,8 +644,8 @@ export const menu = {
         },
         {
           id: 19,
-          name: "",
-          price: "AED 180.00",
+          name: "princess pinata cake",
+          price: "AED 260.00",
           img: Img1,
           category: "Special Cakes",
           description: "",
@@ -653,7 +653,7 @@ export const menu = {
         },
         {
           id: 20,
-          name: "",
+          name: "mango cake",
           price: "AED 180.00",
           img: Img2,
           category: "Special Cakes",
@@ -662,7 +662,7 @@ export const menu = {
         },
         {
           id: 21,
-          name: "",
+          name: "Fruit and Chocolate Cake",
           price: "AED 180.00",
           img: Img3,
           category: "Special Cakes",
@@ -671,8 +671,8 @@ export const menu = {
         },
         {
           id: 22,
-          name: "",
-          price: "AED 180.00",
+          name: "Chocolate Crunchy Pinata Cake",
+          price: "AED 220.00",
           img: Img4,
           category: "Special Cakes",
           description: "",
@@ -680,8 +680,8 @@ export const menu = {
         },
         {
           id: 23,
-          name: "",
-          price: "AED 180.00",
+          name: "Vanilla Mix Berry Pinata Cake",
+          price: "AED 260.00",
           img: Img5,
           category: "Special Cakes",
           description: "",

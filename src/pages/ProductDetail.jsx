@@ -33,7 +33,7 @@ const ProductDetail = () => {
     let phone = '9710545524755'; // Assuming the phone number is in the format "1234567890"
     let url = `https://wa.me/${phone}?text=${encodeURIComponent(message)}`;
     window.open(url, '_blank');
-  }
+  } 
   return (
     <div className='h-full'>
       <Swiper
