@@ -33,7 +33,7 @@ const ProductDetail = () => {
     let phone = '9710545524755'; // Assuming the phone number is in the format "1234567890"
     let url = `https://wa.me/${phone}?text=${encodeURIComponent(message)}`;
     window.open(url, '_blank');
-  } 
+  }
   return (
     <div className='h-full'>
       <Swiper
@@ -49,6 +49,7 @@ const ProductDetail = () => {
       >
         {
           products && products.map((product, index) => {
+            console.log(product)
             return (
               <SwiperSlide key={index} >
                 <div className='flex flex-col gap-5 p-4 mb-10'>
@@ -57,7 +58,7 @@ const ProductDetail = () => {
                       <LazyLoadImage
                         src={product.img}
                         alt={product.name}
-                        className="object-cover rounded shadow-2xl "
+                        className={`object-cover rounded shadow-2xl ${['Iced Drinks'].includes(product.category) ? 'aspect-[6/10]' : 'aspect-[9/10]'} `}
                         effect="blur"
                       />
                     </LazyLoad>

@@ -39,7 +39,7 @@ const Category = () => {
             <div className="flex flex-wrap items-center justify-center gap-2 my-6" align="center">
               {category.subCategories?.map((item, index) => (
                 <div
-                  className={`cursor-pointer text-sm  px-2 py-1 flex items-center  uppercase border text-customYellow border-customYellow rounded-2xl ${tabIndex === index ? "bg-customYellow text-white" : ''} `}
+                  className={`cursor-pointer text-sm  px-2 py-1 flex items-center  uppercase border text-customYellow border-customYellow rounded-2xl ${tabIndex === index ? "bg-customYellow text-white" : ''}   `}
                   align="center"
                   key={index}
                   onClick={() => handleTabChange(index)}>

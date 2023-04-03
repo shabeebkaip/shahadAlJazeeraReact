@@ -761,7 +761,7 @@ export const menu = {
         {
           id: 7,
           name: "Exotic Tart Mix ",
-          price: "AED 126.00",
+          price: "AED 80.00",
           img: exoticTartMix,
           category: "Special Desserts",
           description: "",
