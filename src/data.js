@@ -135,6 +135,7 @@ import crooisantSpecialMix from "./assets/savouries/CROISSANT SPECIAL MIX 50AED 
 import fatayerMixSeniaRegular from "./assets/savouries/FATAYER MIX SENIA REGULAR 160AED.jpg";
 import warganabRegular from "./assets/savouries/WARGANAB REGULAR 52 AED.JPG";
 import warganabSpecial from "./assets/savouries/WARGANAB SPECIAL 63 AED.jpg";
+import tortillaWraps from "./assets/savouries/TORTILLA WRAPS 84 AED.jpg";
 
 //arabic sweet
 import SHAHADBASBOOSAMIX from "./assets/arabiansweets/1. SHAHAD BASBOOSA MIX 65 AED.jpg";
@@ -1526,6 +1527,15 @@ export const menu = {
           description: "",
           query: "savories sweets",
         },
+        {
+          id: 18,
+          name: "TORTILLA WRAPS",
+          price: "AED 84.00",
+          img: tortillaWraps,
+          category: "savories sweets",
+          description: "",
+          query: "savories sweets",
+        }
       ],
     },
   ],
