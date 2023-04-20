@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import { categories, data, menu } from '../data';
-import logo from '../assets/logo.png'
+import { categories, menu } from '../data';
 import 'swiper/swiper.css';
 import { LazyLoadImage } from 'react-lazy-load-image-component';
 import 'react-lazy-load-image-component/src/effects/blur.css';

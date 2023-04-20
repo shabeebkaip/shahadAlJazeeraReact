@@ -1,6 +1,5 @@
 import React from 'react'
 import { useNavigate } from 'react-router-dom'
-import { BiArrowBack } from 'react-icons/bi'
 
 const Back = ({ url }) => {
   const navigate = useNavigate()
