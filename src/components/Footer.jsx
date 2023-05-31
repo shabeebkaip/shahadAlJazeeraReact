@@ -1,5 +1,5 @@
 import React from 'react'
-import eidMubarak from '../assets/Eid Calligraphy (1).png';
+import anniversary from '../assets/11th.png';
 import { AiFillInstagram, AiFillFacebook, AiOutlineWhatsApp } from 'react-icons/ai';
 import { FaSnapchatGhost } from 'react-icons/fa';
 import { IoIosCall } from 'react-icons/io';
@@ -12,7 +12,7 @@ const Footer = () => {
 
       <div className={`flex flex-col items-center justify-center gap-1  text-customYellow`} align="center">
         <div>
-          {/* <img src={eidMubarak} alt="ramadanKareem" className='w-40' /> */}
+          <img src={anniversary} alt="ramadanKareem" className='w-40' />
         </div>
         <a href='/'>shahadaljazeerauae.com</a>
 
