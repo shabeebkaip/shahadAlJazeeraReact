@@ -61,6 +61,7 @@ import Img4 from "./assets/specialcakes/IMG_9611.JPG";
 import Img5 from "./assets/specialcakes/IMG_9618.JPG";
 import vanillaMixBerryCake from "./assets/specialcakes/VANNILA MIX BERRY CAKE 210 AED.JPG";
 
+
 // Special Desserts
 import assortedDessertGlass from "./assets/special desserts/ASSORTED DESSERT GLASS  10 AED.jpg";
 import bruleeMangoBowl from "./assets/special desserts/BRULEE MANGO BOWL 105 AED.jpg";
@@ -69,6 +70,7 @@ import bruleeSaffroBowl from "./assets/special desserts/BRULEE SAFFRO BOWL 105 A
 import bruleeVannillaBowl from "./assets/special desserts/BRULEE VANNILA BOWL 105 AED.jpg";
 import princessPistachioBowl from "./assets/special desserts/PRINCESS PISTACHIO BOWL 120 AED.jpg";
 import exoticTartMix from "./assets/special desserts/EXOTIC TART MIX 126 AED.jpg";
+import dreamCake from  "./assets/special desserts/chocolate_dream_cake.jpg";
 
 // Cakes
 import caramelThurthaBig from "./assets/cakes/CARAMEL THURTHA BIG 150 AED-min.jpg";
@@ -116,6 +118,10 @@ import RUMANPUDDING from "./assets/orientalsweets/28. RUMAN PUDDING 42 AED.jpg";
 import PUDDINGMIX from "./assets/orientalsweets/29. PUDDING MIX 48 AED.jpg";
 import UMMNASER from "./assets/orientalsweets/30. UMM-NASER 57 AED.jpg";
 import milkCakeSaffron from "./assets/orientalsweets/MILK CAKE SAFFRON 55 AED.JPG";
+import eclairSaffron from "./assets/orientalsweets/IMG_0172.jpg";
+import cakeBrownie from "./assets/orientalsweets/IMG_0214.jpg";
+import trufflesHazelNut from "./assets/orientalsweets/IMG_0300.jpg";
+import galaxyNuts from "./assets/orientalsweets/IMG_0404.jpg";
 
 //Savouries sweet
 import sandwichSpecialSmall from "./assets/savouries/SANDWICH SPECIAL SMALL   63 AED.png";
@@ -136,6 +142,7 @@ import fatayerMixSeniaRegular from "./assets/savouries/FATAYER MIX SENIA REGULAR
 import warganabRegular from "./assets/savouries/WARGANAB REGULAR 52 AED.JPG";
 import warganabSpecial from "./assets/savouries/WARGANAB SPECIAL 63 AED.jpg";
 import tortillaWraps from "./assets/savouries/TORTILLA WRAPS 84 AED.jpg";
+import fualaSandwich from "./assets/savouries/IMG_0121.jpg";
 
 //arabic sweet
 import SHAHADBASBOOSAMIX from "./assets/arabiansweets/1. SHAHAD BASBOOSA MIX 65 AED.jpg";
@@ -158,6 +165,7 @@ import BAGLAWA from "./assets/arabiansweets/17. BAGLAWA AED 110.jpg";
 import ayoonJamalMix from "./assets/arabiansweets/18. AYOON JAMAL MIX BOX 75 AED.jpg";
 import basboosaLabaneh from "./assets/arabiansweets/19. BASBOOSA LABANEH 57 AED.JPG";
 import mamoolThamar from "./assets/arabiansweets/20.MAMOOL THAMAR 63 AED.JPG";
+import uraiba from "./assets/arabiansweets/IMG_0264.jpg";
 
 export const categories = [
   { label: "Hot Drinks", id: "hotDrinks" },
@@ -768,6 +776,15 @@ export const menu = {
           description: "",
           query: "specialDesserts",
         },
+        {
+          id: 8,
+          name: "Chocolate Dream Cake",
+          price: "AED 75.00",
+          img: dreamCake,
+          category: "Special Desserts",
+          description: "",
+          query: "specialDesserts",
+        }
       ],
     },
     // cakes
@@ -1178,6 +1195,43 @@ export const menu = {
               description: "",
               query: "orientalsweets",
             },
+            {
+              id: 32,
+              name:'Eclair Saffron',
+              price:'AED 50.00',
+              img: eclairSaffron,
+              category: "orientalsweets",
+              description: "",
+              query: "orientalsweets",
+            },
+            {
+              id: 33,
+              name:'Cake Brownie',
+              price:'AED 55.00',
+              img: cakeBrownie,
+              category: "orientalsweets",
+              description: "",
+              query: "orientalsweets",
+            },
+            {
+              id: 34,
+              name:'Truffles Hazelnut',
+              price:'AED 55.00',
+              img: trufflesHazelNut,
+              category: "orientalsweets",
+              description: "",
+              query: "orientalsweets",
+            },
+            {
+              id: 35,
+              name:'Galaxy Nuts',
+              price:'AED 70.00',
+              img: galaxyNuts,
+              category: "orientalsweets",
+              description: "",
+              query: "orientalsweets",              
+            }
+
           ],
         },
         //arabian sweet
@@ -1364,6 +1418,15 @@ export const menu = {
               description: "",
               query: "arabiansweets",
             },
+            {
+              id: 21,
+              name: "Uraiba",
+              price: "AED 47.00",
+              img: uraiba,
+              category: "arabiansweets",
+              description: "",
+              query: "arabiansweets",
+            }
           ],
         },
       ],
@@ -1535,6 +1598,15 @@ export const menu = {
           category: "savories sweets",
           description: "",
           query: "savories sweets",
+        },
+        {
+            id: 19,
+            name: "Fuala Sandwich" ,
+            price: "AED 50.00",
+            img: fualaSandwich,
+            category: "savories sweets",
+            description: "",
+            query: "savories sweets",
         }
       ],
     },
