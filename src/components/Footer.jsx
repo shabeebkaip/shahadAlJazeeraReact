@@ -11,9 +11,9 @@ const Footer = () => {
     <footer className=''>
 
       <div className={`flex flex-col items-center justify-center gap-1  text-customYellow`} align="center">
-        <div>
+        {/* <div>
           <img src={anniversary} alt="ramadanKareem" className='w-40' />
-        </div>
+        </div> */}
         <a href='/'>shahadaljazeerauae.com</a>
 
         <div className='flex items-center justify-center gap-2'>

@@ -1198,7 +1198,7 @@ export const menu = {
             {
               id: 32,
               name:'Eclair Saffron',
-              price:'AED 50.00',
+              price:'AED 55.00',
               img: eclairSaffron,
               category: "orientalsweets",
               description: "",
@@ -1207,7 +1207,7 @@ export const menu = {
             {
               id: 33,
               name:'Cake Brownie',
-              price:'AED 55.00',
+              price:'AED 60.00',
               img: cakeBrownie,
               category: "orientalsweets",
               description: "",
@@ -1216,7 +1216,7 @@ export const menu = {
             {
               id: 34,
               name:'Truffles Hazelnut',
-              price:'AED 55.00',
+              price:'AED 57.00',
               img: trufflesHazelNut,
               category: "orientalsweets",
               description: "",
@@ -1225,7 +1225,7 @@ export const menu = {
             {
               id: 35,
               name:'Galaxy Nuts',
-              price:'AED 70.00',
+              price:'AED 65.00',
               img: galaxyNuts,
               category: "orientalsweets",
               description: "",
@@ -1421,7 +1421,7 @@ export const menu = {
             {
               id: 21,
               name: "Uraiba",
-              price: "AED 47.00",
+              price: "AED 45.00",
               img: uraiba,
               category: "arabiansweets",
               description: "",
@@ -1602,7 +1602,7 @@ export const menu = {
         {
             id: 19,
             name: "Fuala Sandwich" ,
-            price: "AED 50.00",
+            price: "AED 60.00",
             img: fualaSandwich,
             category: "savories sweets",
             description: "",
