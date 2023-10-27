@@ -167,6 +167,13 @@ import basboosaLabaneh from "./assets/arabiansweets/19. BASBOOSA LABANEH 57 AED.
 import mamoolThamar from "./assets/arabiansweets/20.MAMOOL THAMAR 63 AED.JPG";
 import uraiba from "./assets/arabiansweets/IMG_0264.jpg";
 
+// customised cakes
+import cocoMelonThemedCake from "./assets/customised-cakes/WhatsApp Image 2023-10-26 at 19.16.59_91615eda.jpg";
+import brideToBeThemedCake from "./assets/customised-cakes/WhatsApp Image 2023-10-26 at 19.19.20_22224921.jpg";
+import cocoMelonThemedCake1 from "./assets/customised-cakes/WhatsApp Image 2023-10-26 at 19.20.49_33b9a211.jpg"; 
+import elissaThemedCake from "./assets/customised-cakes/WhatsApp Image 2023-10-26 at 19.20.50_0ffe368b.jpg";
+import nationalServiceThemedCake from './assets/customised-cakes/WhatsApp Image 2023-10-26 at 19.20.51_f36fdccc.jpg';
+
 export const categories = [
   { label: "Hot Drinks", id: "hotDrinks" },
   { label: "Iced Drinks", id: "icedDrinks" },
@@ -902,6 +909,59 @@ export const menu = {
           description: "",
           query: "cakes",
         },
+      ],
+    },
+    {
+      id: 6,
+      name: "Customised Cakes",
+      url: "customised-cakes",
+      items: [
+        {
+          id: 1,
+          name: "Coco Melon Themed Cake",
+          price: "AED 300.00",
+          img: cocoMelonThemedCake,
+          category: "Customised Cakes",
+          description: "",
+          query: "customisedCakes",
+        },
+        {
+          id: 2,
+          name: "Bride To Be Themed Cake",
+          price: "AED 650.00",
+          img: brideToBeThemedCake,
+          category: "Customised Cakes",
+          description: "",
+          query: "customisedCakes",
+        },
+        {
+          id: 3,
+          name: "Coco Melon Themed Cake",
+          price: "AED 550.00",
+          img: cocoMelonThemedCake1,
+          category: "Customised Cakes",
+          description: "",
+          query: "customisedCakes",
+        },
+        {
+          id: 4,
+          name: "Elissa Themed Cake",
+          price: "AED 380.00",
+          img: elissaThemedCake,
+          category: "Customised Cakes",
+          description: "",
+          query: "customisedCakes",
+        },
+        {
+          id: 5,
+          name: "National Service Themed Cake",
+          price: "AED 190.00",
+          img: nationalServiceThemedCake,
+          category: "Customised Cakes",
+          description: "",
+          query: "customisedCakes",
+        },
+        
       ],
     },
     // sweets

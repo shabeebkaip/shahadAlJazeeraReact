@@ -19,7 +19,7 @@ const Food = ({ item, index, params, category, subCategory }) => {
         <LazyLoadImage
           src={item.img}
           alt={item.name}
-          className={`object-cover w-full h-full rounded shadow-2xl ${['Iced Drinks'].includes(item.category) ? 'aspect-[6/10]' : 'aspect-[8/10]'}`}
+          className={`object-cover w-full h-full rounded shadow-2xl ${['Iced Drinks'].includes(item.category) ? 'aspect-[6/10]': ['Customised Cakes'].includes(item.category) ? '' : 'aspect-[8/10]'}`}
           effect="blur"
         />
       </LazyLoad>
